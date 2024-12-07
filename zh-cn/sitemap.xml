@@ -2,118 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/zh-cn/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://voilern.github.io/</loc>
+    <lastmod>2024-12-07T10:37:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/"
+                href="https://voilern.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/zh-cn/"
+                href="https://voilern.github.io/"
                 />
   </url><url>
-    <loc>https://example.com/zh-cn/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://voilern.github.io/post/</loc>
+    <lastmod>2024-12-07T10:37:33+08:00</lastmod>
+  </url><url>
+    <loc>https://voilern.github.io/p/test/</loc>
+    <lastmod>2024-12-07T10:37:33+08:00</lastmod>
+  </url><url>
+    <loc>https://voilern.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://voilern.github.io/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://voilern.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/categories/"
+                href="https://voilern.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/zh-cn/categories/"
+                href="https://voilern.github.io/categories/"
                 />
   </url><url>
-    <loc>https://example.com/zh-cn/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://voilern.github.io/links/</loc>
   </url><url>
-    <loc>https://example.com/zh-cn/post/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://voilern.github.io/search/</loc>
+  </url><url>
+    <loc>https://voilern.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/post/"
+                href="https://voilern.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/zh-cn/post/"
+                href="https://voilern.github.io/tags/"
                 />
   </url><url>
-    <loc>https://example.com/zh-cn/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/categories/test/"
-                />
+    <loc>https://voilern.github.io/categories/test/</loc>
   </url><url>
-    <loc>https://example.com/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/zh-cn/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/page/"
-                />
-  </url><url>
-    <loc>https://example.com/zh-cn/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/tags/"
-                />
-  </url><url>
-    <loc>https://example.com/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/%E5%85%B3%E4%BA%8E/"
-                />
+    <loc>https://voilern.github.io/%E5%85%B3%E4%BA%8E/</loc>
   </url>
 </urlset>
