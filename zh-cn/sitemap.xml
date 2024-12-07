@@ -2,61 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://voilern.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-07T10:37:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://voilern.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://voilern.github.io/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://voilern.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-12-07T10:37:33+08:00</lastmod>
   </url><url>
-    <loc>https://voilern.github.io/p/test/</loc>
+    <loc>http://localhost:1313/posts/test/</loc>
     <lastmod>2024-12-07T10:37:33+08:00</lastmod>
   </url><url>
-    <loc>https://voilern.github.io/archives/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/page/"
+                />
   </url><url>
-    <loc>https://voilern.github.io/page/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://voilern.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://voilern.github.io/en/categories/"
+                href="http://localhost:1313/en/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://voilern.github.io/categories/"
+                href="http://localhost:1313/archives/"
                 />
   </url><url>
-    <loc>https://voilern.github.io/links/</loc>
-  </url><url>
-    <loc>https://voilern.github.io/search/</loc>
-  </url><url>
-    <loc>https://voilern.github.io/tags/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://voilern.github.io/en/tags/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://voilern.github.io/tags/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://voilern.github.io/categories/test/</loc>
+    <loc>http://localhost:1313/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/tags/"
+                />
   </url><url>
-    <loc>https://voilern.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://localhost:1313/categories/test/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/links/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/search/"
+                />
   </url>
 </urlset>
