@@ -6,7 +6,204 @@
         <description>Recent content on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 07 Dec 2024 10:37:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 25 Dec 2024 11:57:46 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Final_review</title>
+        <link>http://localhost:1313/posts/final_review/</link>
+        <pubDate>Wed, 25 Dec 2024 11:57:46 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/final_review/</guid>
+        <description>&lt;h1 id=&#34;程序设计与算法基础-期末复习&#34;&gt;程序设计与算法基础 期末复习
+&lt;/h1&gt;&lt;p&gt;&lt;em&gt;答疑：海洋大楼 1.2 19：00-21：00&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;语言&#34;&gt;语言
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;数据表达&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基础：基本类型、运算、表达式&lt;/li&gt;
+&lt;li&gt;构造方法：数组、指针、结构、链表&lt;/li&gt;
+&lt;li&gt;文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;控制表达&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;语句级：顺序、分支、循环&lt;/li&gt;
+&lt;li&gt;模块级：函数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;其他&lt;/strong&gt;：编译预处理命令、命令行参数&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一些基本数据结构和算法&lt;/strong&gt;：查找、排序、简单数值计算&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;数据类型与表达式&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基本数据类型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运算优先级及结合方向&lt;/strong&gt;（&lt;em&gt;记忆点&lt;/em&gt;）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;语句结构&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;赋值的方法&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分支控制&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;双路选择语句（if语句）&lt;/li&gt;
+&lt;li&gt;多路选择语句（switch语句）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;循环语句&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;for、while、do-while&lt;/li&gt;
+&lt;li&gt;循环结束条件/提前结束循环/循环控制变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;子程序结构——函数&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;C程序的总体结构&lt;/li&gt;
+&lt;li&gt;函数的定义、调用&lt;/li&gt;
+&lt;li&gt;函数参数的形式和传递&lt;/li&gt;
+&lt;li&gt;函数的嵌套调用和递归调用&lt;/li&gt;
+&lt;li&gt;全局变量与局部变量
+&lt;ul&gt;
+&lt;li&gt;变量的作用域与生命周期&lt;/li&gt;
+&lt;li&gt;static对全局变量和局部变量的不同作用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对全局变量：改变作用域&lt;br&gt;
+对局部变量：改变生命周期&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;构造类型及类型定义&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;指针&lt;/li&gt;
+&lt;li&gt;数组：一维/多维数组；指针与一维数组；字符串&lt;/li&gt;
+&lt;li&gt;结构&lt;/li&gt;
+&lt;li&gt;构造类型与指针类型的混合使用：指针数组、结构数组、结构指针、含指针和数组的结构体；一维链表及其相关操作&lt;/li&gt;
+&lt;li&gt;例子：可变数组、堆栈、队列、least prefix、矩阵&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据的输入/输出&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;基本类型数据的输入/输出方法：
+&lt;ul&gt;
+&lt;li&gt;printf/scanf&lt;/li&gt;
+&lt;li&gt;getc/putc&lt;/li&gt;
+&lt;li&gt;fgetc/fputc&lt;/li&gt;
+&lt;li&gt;sprintf/sscanf&lt;/li&gt;
+&lt;li&gt;fprintf/fscanf&lt;/li&gt;
+&lt;li&gt;fgets/fputs&lt;/li&gt;
+&lt;li&gt;fread/fwrite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;文件及其相关操作
+&lt;ul&gt;
+&lt;li&gt;文件的含义与定义方式&lt;/li&gt;
+&lt;li&gt;文件的打开与关闭&lt;/li&gt;
+&lt;li&gt;文件的基本读写操作&lt;/li&gt;
+&lt;li&gt;文件中数据的定位：fseek&lt;/li&gt;
+&lt;li&gt;文件状态的检测：ftell、feof&lt;/li&gt;
+&lt;li&gt;文本文件 vs 二进制文件&lt;/li&gt;
+&lt;li&gt;一般的文本文件读写程序结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文本文件读写的模式：&lt;br&gt;
+while( ( c = getchar(fp)) != EOF ) {……}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;编译预处理
+&lt;ul&gt;
+&lt;li&gt;编译预处理/宏定义（含宏函数）&lt;/li&gt;
+&lt;li&gt;文件包含&lt;/li&gt;
+&lt;li&gt;条件编译&lt;/li&gt;
+&lt;li&gt;宏函数的正确定义与使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;命令行参数&lt;br&gt;
+int main(int argc, char *argv[])&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;一些基本算法&#34;&gt;一些基本算法
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基本的遍历算法&lt;/strong&gt; &lt;em&gt;（针对不同数据结构）&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;一维/多维数组&lt;/li&gt;
+&lt;li&gt;文件&lt;/li&gt;
+&lt;li&gt;链表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NODE *p = head;&lt;br&gt;
+while ( p != NULL )&lt;br&gt;
+{&lt;br&gt;
+……&lt;br&gt;
+p = p -&amp;gt; next;&lt;br&gt;
+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基本的查找算法&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;无序数据序列&lt;/li&gt;
+&lt;li&gt;有序数据序列&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;排序算法&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;简单排序：选择、交换（冒泡）、插入&lt;/li&gt;
+&lt;li&gt;归并排序、快速排序&lt;/li&gt;
+&lt;li&gt;算法复杂性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单的数值计算方法&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;无限级数的近似计算&lt;/li&gt;
+&lt;li&gt;进制转换&lt;/li&gt;
+&lt;li&gt;单调函数二分法求根&lt;/li&gt;
+&lt;li&gt;积分的近似计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;疑难问题&#34;&gt;疑难问题
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;运算优先级&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;正确理解指针类型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;链表及其相关操作&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文件及其相关操作&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;一些例题&#34;&gt;一些例题
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;根据声明int a;表达式(a&amp;amp;3)==(a%4)的值为？&lt;br&gt;
+答案：1&lt;br&gt;
+解析：均为取a的最后两位&lt;/li&gt;
+&lt;li&gt;数组定义为int a[3][2]={1,2,3,4,5,6},数组元素____的值为6？&lt;br&gt;
+答案：a[1][3]&lt;br&gt;
+解析：a[1][3]相当于从a[1][0]开始向数组后移三位，即得到6&lt;br&gt;
+可以画一个3行2列的数组后递推选项所指向的位置&lt;/li&gt;
+&lt;li&gt;int x[] = {1,2,3}, *p = x, y;则y = *p++相当于？&lt;br&gt;
+答案：y = x[0], p++;&lt;br&gt;
+解析：p++的结果为p操作后再自增&lt;/li&gt;
+&lt;li&gt;int p[5], * a[5],表达式正确的是？&lt;br&gt;
+答案：*(a+1) = p;&lt;br&gt;
+解析：指针赋指针&lt;/li&gt;
+&lt;li&gt;表达式!!&amp;ldquo;2010-01-27&amp;quot;的值？&lt;br&gt;
+答案：&lt;/li&gt;
+&lt;li&gt;二维数组列不可为空&lt;/li&gt;
+&lt;li&gt;char s[]=&amp;ldquo;hello\nworld\n&amp;rdquo;，数组s中有多少个元素？&lt;br&gt;
+答案：13&lt;/li&gt;
+&lt;li&gt;数组是常量指针，不可给数组名赋值&lt;/li&gt;
+&lt;li&gt;char *format定义后可以作为printf的格式参数&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Test</title>
         <link>http://localhost:1313/posts/test/</link>
         <pubDate>Sat, 07 Dec 2024 10:37:33 +0800</pubDate>
