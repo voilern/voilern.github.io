@@ -6,13 +6,142 @@
         <description>Recent content in Posts on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 25 Jan 2025 00:19:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Testfordelete</title>
-        <link>http://localhost:1313/posts/testfordelete/</link>
-        <pubDate>Sat, 25 Jan 2025 00:19:36 +0800</pubDate>
+        <lastBuildDate>Sat, 01 Feb 2025 19:55:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>完赛总结 | 原样蛇年闯关 writeup</title>
+        <link>http://localhost:1313/posts/%E5%AE%8C%E8%B5%9B%E6%80%BB%E7%BB%93-%E5%8E%9F%E6%A0%B7%E8%9B%87%E5%B9%B4%E9%97%AF%E5%85%B3-writeup/</link>
+        <pubDate>Sat, 01 Feb 2025 19:55:12 +0800</pubDate>
         
-        <guid>http://localhost:1313/posts/testfordelete/</guid>
-        <description></description>
+        <guid>http://localhost:1313/posts/%E5%AE%8C%E8%B5%9B%E6%80%BB%E7%BB%93-%E5%8E%9F%E6%A0%B7%E8%9B%87%E5%B9%B4%E9%97%AF%E5%85%B3-writeup/</guid>
+        <description>&lt;h1 id=&#34;center完赛总结--原样蛇年闯关-writeupcenter&#34;&gt;&lt;center&gt;完赛总结 | 原样蛇年闯关 writeup&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;center&gt;恭喜队友和自己拿下hunt生涯的第一个冠军！&lt;/center&gt;&lt;/strong&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/rgdczQTXbneyx4S.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;&lt;center&gt;&lt;del&gt;我们两个真是太厉害了&lt;/del&gt;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;center完赛总结center&#34;&gt;&lt;center&gt;完赛总结&lt;/center&gt;
+&lt;/h2&gt;&lt;p&gt;其实一开始没打算参加的，毕竟刚打完secohunt，但进队后看题感觉比seco好多了于是再次开始在腾讯文档里&lt;del&gt;苦力&lt;/del&gt;做题&lt;del&gt;但事实是并没比seco好多少&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不好笑/新年新人设/亦可赛艇&lt;/strong&gt;：队友做的，但赛艇的中间答案真能塞啊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;听力测试&lt;/strong&gt;：又厚又感觉是孬题，买的答案，没做&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;镜面世界&lt;/strong&gt;：队友根据meta反爆的，最后看出来是cryptic但懒得做了，不知道二叉树指的是什么&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;观流星雨&lt;/strong&gt;：只做了17道日谜，蛇梯棋不知道怎么做，摆了&lt;br&gt;
+&lt;em&gt;补充：看了祝融队的write up，这真是好题啊，可惜做完日谜就转攻其他题了，做完其他题直接开meta也没心情看这题，真是可惜了&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;送给叨友&lt;/strong&gt;：过于厚且苦力，并且我们开始做这题的时候就快开meta了，所以只做了前四题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;鹅鹅鹅&lt;/strong&gt;：过程都是队友在拉我进队前自己做的，我负责看文档里的小题答案然后通灵&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网络天文馆&lt;/strong&gt;：指引过少，加密层数略多，使我想起高中推理社出的毫无提示的维吉尼亚套栅栏，需要的知识有些专业化，但这题是我手刹的，所以这是好题（&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;衔尾卡牌&lt;/strong&gt;：恁凑答案，不过中间有些idea都还挺不错的。但是最开始base64字符串给错和凯撒方向不一致简直孬到没边了，还好瞪出来恭喜！请提交和【】后队友试出来了答案。至于完赛后才知道的中间答案操作两两组合是真没看懂（&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;META&lt;/strong&gt;：感谢蛇大夫封禁我队后的【数据删除】，看完后立马知道meta要干什么了，所以meta思路是很顺畅的。用中间答案的idea很好，但是部分题为了凑中间答案数导致了题目过厚/塞爆就有些得不偿失了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;centerfun-factcenter&#34;&gt;&lt;center&gt;Fun Fact&lt;/center&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;center&gt;staff误封后的顶级hint&lt;/em&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/ur8mYUZ2GXajkBg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/T5OdQsgvGASPHeZ.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;em&gt;&lt;center&gt;反爆base64&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/WYeCcQSDv9mnzdF.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;em&gt;&lt;center&gt;反卷？卷！&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/XiVdPDWk2fSg948.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;&lt;center&gt;通灵大神&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/An5FELSxcmiwhjK.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/PaVD2A7UeXLOhFB.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;&lt;center&gt;通灵大神×2&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/K6TCkzIoXrG2DVj.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/mDZe6YSKUVNh9kb.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/8vPgIjGlCJc4rMB.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;&lt;center&gt;他自己来的.jpg&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/c3ngO8H1Ntu6V52.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;&lt;center&gt;as hair dark&lt;/center&gt;&lt;/em&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/M5C37kTaQUHYhPp.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/02/01/5WGNgoMynkiqS3w.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
         </item>
         
     </channel>
