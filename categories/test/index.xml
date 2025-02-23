@@ -5,7 +5,6 @@
         <link>http://localhost:1313/categories/test/</link>
         <description>Recent content in test on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-cn</language><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
