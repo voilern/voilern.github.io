@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-06T13:14:43+08:00</lastmod>
+    <lastmod>2025-03-02T23:28:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-02-06T13:14:43+08:00</lastmod>
+    <lastmod>2025-03-02T23:28:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/puzzle-the-festival-will-be-declared/</loc>
+    <lastmod>2025-03-02T23:28:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/puzzle-hunt%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2025-02-06T13:14:43+08:00</lastmod>

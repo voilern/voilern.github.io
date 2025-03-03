@@ -6,7 +6,182 @@
         <description>Recent content on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 06 Feb 2025 13:14:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Puzzle | The Festival Will Be Declared</title>
+        <link>http://localhost:1313/posts/puzzle-the-festival-will-be-declared/</link>
+        <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/puzzle-the-festival-will-be-declared/</guid>
+        <description>&lt;p&gt;本题是由&lt;strong&gt;KevinTheMH&lt;/strong&gt;写作，在公众号&lt;strong&gt;语谜Puzzling&lt;/strong&gt;上发布的一道十分精彩的Puzzle。我队（ &lt;strong&gt;Celestial &amp;lt;Catellite&amp;gt;&lt;/strong&gt; ）在发布17h后成功解出，获得该题三杀。个人很喜欢这道题，因此简单作一题解兼做题历程记录。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;（ 题干部分来自于&lt;strong&gt;语谜Puzzling&lt;/strong&gt;公众号，原文请见 &lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/Fe6ghKGHk6SwIYJOp1q_kg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;盛典启幕：The Festival Will Be Declared &lt;/a&gt;）
+题干部分如下：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A pair of star-crossed lovers came to the festival. Saying sweet-ish vows about bringing down the stars and planets, their paths in life really crossed, amidst the promise of being there for each other.(Note: the couple was facing the south at this romantic moment)&lt;/em&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/02/A1wiUg9G3XYIum6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;腾讯文档：&lt;a class=&#34;link&#34; href=&#34;https://docs.qq.com/sheet/DZVp5Tk1zRnVLU2Fk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;盛典启幕：The Festival Will Be Declared&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;首先可以看到一个十分巨大的wordsearch和旁边指示单词长度的一列数字，第一步：&lt;del&gt;当然是自己完成这个wordsearch！&lt;/del&gt;当然是把wordsearch丢进&lt;a class=&#34;link&#34; href=&#34;https://philippica.github.io/cipher_machine/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;焖肉面&lt;/a&gt;的solver！就可以得到下图中的结果：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/02/SJITny8ukCDQ6aF.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;下一步也很显然：找出wordsearch中词所在的位置，并将找到的词与右侧的（ n ）相对应，在对应过程中不难注意到右侧单词都是按照&lt;strong&gt;字典序&lt;/strong&gt;进行排列，可用以检查正误和定位剩余单词的前几个字母。总之用尽各种方法艰难完成wordsearch后我们会得到下图：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/02/QutTcU25CJi8lD4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;在wordsearch过程中不难注意到部分&lt;strong&gt;关联性较强&lt;/strong&gt;的单词，我们最早注意到的是&lt;strong&gt;waiting for love&lt;/strong&gt;和&lt;strong&gt;without you&lt;/strong&gt;都是英文歌曲，&lt;strong&gt;california&lt;/strong&gt;和&lt;strong&gt;georgia&lt;/strong&gt;都是美国州名（这里实际上有问题，我们在下一步接近完成时才在提示下改过来），但在之后并没有意识到这实际上是一个&lt;strong&gt;Connecting Wall&lt;/strong&gt;，直到题目发布1h后的提示二才让我们有了新的进展。接下来自然是要把这32个词分为8类，完成这一步后表格会变成下图中这样：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/gST6afcZo8sVCNU.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/03/03/GPeR8Njb3lnFOVm.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;表中？？？对应的分类应为&lt;strong&gt;与世界四大长河之一的名字有关&lt;/strong&gt;，&lt;strong&gt;五行+词&lt;/strong&gt;应为&lt;strong&gt;五种古典元素+词&lt;/strong&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;这一步Connecting Wall实际上&lt;strong&gt;十分难以完成&lt;/strong&gt;，特别是&lt;strong&gt;五行+词&lt;/strong&gt;、&lt;strong&gt;Smith&lt;/strong&gt;和&lt;strong&gt;与世界四大长河之一的名字有关&lt;/strong&gt;这三个分类，在没有提示的情况下很难想得到。&lt;del&gt;含有不常见分类且没有正解反馈的Connections都孬&lt;/del&gt;总之又在用尽各种方法后，我们完成了这个Connecting Wall，然后呢？似乎又一次没了解题方向。&lt;/p&gt;
+&lt;p&gt;在这时可以回头看看&lt;strong&gt;Flavor Text&lt;/strong&gt;，有几个关键词值得注意——&lt;strong&gt;sweet-ish&lt;/strong&gt;和&lt;strong&gt;bringing down the stars and planets&lt;/strong&gt;。参考提示三，前者实际上是一个常见的&lt;strong&gt;homophone（谐音词）&lt;/strong&gt;，也即&lt;strong&gt;swedish&lt;/strong&gt;，后者则有暗示&lt;strong&gt;行星&lt;/strong&gt;，二者结合可知实际上指的是&lt;strong&gt;瑞典太阳系模型（Swedish Solar System，即SSS）&lt;/strong&gt;，而上一步Connecting Wall中的每一个分类都与SSS中的地标有一一对应关系，搜索后表格应该会是这样：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/4GnYsP5fIO2RFQq.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;图中红字为做题时没有找到的地标名&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt;  
+&lt;p&gt;同时，FT中还提到多次&lt;strong&gt;crossed&lt;/strong&gt;，也可以参考提示五，总之下一步应该&lt;strong&gt;提取路径交叉点的字母&lt;/strong&gt;，提取字母后不难想到下一步应该是&lt;strong&gt;排序&lt;/strong&gt;，这里有一个很自然的顺序——按照&lt;strong&gt;太阳系顺序&lt;/strong&gt;对各组进行重排！这一步后表格belike：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/oNMUlPsI2uj4tq7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/03/03/CXGL3a21bwozf4d.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;就会得到一句指示：&lt;strong&gt;SPIRALLY REARRANGE START FROM CENTER（从中心开始螺旋重排）&lt;/strong&gt;，重新回到这个wordsearch盘面，不难在中心发现&lt;strong&gt;congrats&lt;/strong&gt;，提示我们螺旋重排的方向。在code后，我们可以得到新的wordsearch，其中第一行很明显的是新的指示：&lt;strong&gt;CONGRATS LIFT YOUR SPIRITS FOR THIS FESTIVAL&lt;/strong&gt;，其中&lt;strong&gt;spirits&lt;/strong&gt;在这题中指的是&lt;strong&gt;神明&lt;/strong&gt;，参考提示七、八，我们可以找到31个神明的名字。同样地，按照其职责可以将其分为八组，每一组都以&lt;strong&gt;十字形（cross）&lt;/strong&gt;环绕着中心字母，自然地提取八个字母后，我们再次面临&lt;strong&gt;排序&lt;/strong&gt;的问题，类似上一次排序，八种职责可以对应太阳系中的八颗天体（参考希腊和罗马神话），再次按照&lt;strong&gt;太阳系顺序&lt;/strong&gt;进行排列，我们便可得到下图中的表格：&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/fiCsShwMRgPHmZU.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/03/03/XygCNIJVzcRvx3f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;i&gt;图中木星对应&lt;strong&gt;众神之主&lt;/strong&gt;，天王星对应&lt;strong&gt;天空之神&lt;/strong&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt;  
+&lt;p&gt;现在我们得到了一句新的指示：&lt;strong&gt;rot eight&lt;/strong&gt;，即对wordsearch的盘面&lt;strong&gt;凯撒移位8位&lt;/strong&gt;。移位后可以发现盘面的最下面一行变为&lt;strong&gt;LOOK UP ON FEB TWENTY EIGHTH THIS YEAR AT NIGHT（在今年的二月二十八日夜晚抬头）&lt;/strong&gt;，至此，本题的主题终于浮现——&lt;strong&gt;2025年2月28日七星连珠，沿着黄道（ecliptic），七颗行星会以火星、木星、天王星、金星、海王星、水星和土星的顺序排列&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;按照指示从盘面最底下开始&lt;strong&gt;向上看（look up）&lt;/strong&gt;，可以在第七行的两端发现&lt;strong&gt;ECLIPTIC&lt;/strong&gt;，这就是本道题的&lt;strong&gt;黄道&lt;/strong&gt;！在黄道所在行中间可以发现&lt;strong&gt;间距2的离散型ECLIPTIC&lt;/strong&gt;，参考提示八，这个ECLIPTIC将黄道分为&lt;strong&gt;七个双字母组（bigram）&lt;/strong&gt;，刚好对应&lt;strong&gt;七星连珠&lt;/strong&gt;。再一次，也是最后一次，将这七个双字母组按照&lt;strong&gt;太阳系顺序&lt;/strong&gt;排列，便可得到最终答案——&lt;strong&gt;A FAREWELL WALTZ（告别的华尔兹）&lt;/strong&gt;。至此这道题就全部结束了!&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/SV4HL9FdjQiG1AK.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s2.loli.net/2025/03/03/z6TbIfWrQ7isvkD.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;来自官方题解的一张图&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt;  
+&lt;p&gt;官方题解请见&lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/Mg_8kBAhUby7-_PCxr4RPw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【解析】盛典启幕：The Festival Will Be Declared&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;可以看出这是一道十分精彩、十分浪漫，难度也很高的Puzzle，虽然有一点引导不足、大盘wordsearch过程略枯燥的问题，但好在提示给的很充分！跟着提示走可以解的很顺畅，&lt;del&gt;事实是从领先提示到跟不上提示进度开始睡觉。&lt;/del&gt;以下是一些&lt;strong&gt;fun stuff&lt;/strong&gt;！&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/ylDjzh81vpnsw2W.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;蔚蓝玩家特有的警觉&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/BTdRG6JAC9LWHEn.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;并非mitmh&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/03/03/XlQ1KjDC6bsIRdf.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;i&gt;是谁只领到3.62我不说&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt; </description>
+        </item>
+        <item>
         <title>Puzzle Hunt记录</title>
         <link>http://localhost:1313/posts/puzzle-hunt%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Thu, 06 Feb 2025 13:14:43 +0800</pubDate>
