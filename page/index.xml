@@ -21,7 +21,15 @@
         
         <guid>http://localhost:1313/about/</guid>
         <description>&lt;p&gt;这里是&lt;strong&gt;voilern&lt;/strong&gt;的个人博客，在去年（2024）十二月搭建时曾希望用以存放笔记，但最终选择用以发布一些&lt;strong&gt;非笔记类&lt;/strong&gt;的内容。（ /heart obsidian /heart ）&lt;br&gt;
-今后应该主要会更新一些&lt;strong&gt;Puzzle&lt;/strong&gt;相关的内容，例如&lt;strong&gt;单题题解&lt;/strong&gt;、&lt;strong&gt;大型Hunt的WriteUp&lt;/strong&gt;和也许会有的&lt;strong&gt;个人制作的题目&lt;/strong&gt;&lt;del&gt;真的会有吗&lt;/del&gt;；也可能会发一些自己在折腾时发现的有趣东西，欢迎各位来玩~&lt;/p&gt;
+今后应该主要会更新一些&lt;strong&gt;Puzzle&lt;/strong&gt;相关的内容，例如&lt;strong&gt;单题题解&lt;/strong&gt;、&lt;strong&gt;Hunt的WriteUp&lt;/strong&gt;和也许会有的&lt;strong&gt;个人制作的题目&lt;/strong&gt;&lt;del&gt;真的会有吗&lt;/del&gt;；也可能会发一些自己在折腾时发现的有趣东西，欢迎各位来玩~&lt;/p&gt;
+&lt;p&gt;TODO：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MITMH 2024 Epilogue Write-Up&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;waline评论服务&lt;/li&gt;
+&lt;li&gt;pku谜协 元宵灯谜题解&lt;/li&gt;
+&lt;li&gt;归档页面&lt;/li&gt;
+&lt;li&gt;hugo美化&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -30,7 +38,15 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;友情链接 / 常用工具喵~&lt;/p&gt;
+        <description>&lt;p&gt;友情链接 / 常用工具喵~&lt;br&gt;
+想要让自己的博客 / 网站加入该页面请发送邮件至&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:voilern486@gmail.com&#34; &gt;voilern486@gmail.com&lt;/a&gt;&lt;/strong&gt;，邮件内容包含：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;title： 焖肉面&lt;/li&gt;
+&lt;li&gt;description： 综合性密码工具&lt;/li&gt;
+&lt;li&gt;website： &lt;a class=&#34;link&#34; href=&#34;https://philippica.github.io/cipher_machine/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://philippica.github.io/cipher_machine/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;icon（可选）： image.jpg&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
