@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-12T10:46:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-12T10:46:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/puzzle-the-festival-will-be-declared/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
@@ -16,6 +16,9 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/calendar/</loc>
+    <lastmod>2025-02-06T13:14:43+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/record-voilerns-puzzle-calendar/</loc>
     <lastmod>2025-02-06T13:14:43+08:00</lastmod>
