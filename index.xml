@@ -6,7 +6,15 @@
         <description>Recent content on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 12 Mar 2025 10:46:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hunt | MITMH 2024 Epilogue</title>
+        <link>http://localhost:1313/posts/hunt-mitmh-2024-epilogue/</link>
+        <pubDate>Wed, 12 Mar 2025 10:46:52 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/hunt-mitmh-2024-epilogue/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Puzzle | The Festival Will Be Declared</title>
         <link>http://localhost:1313/posts/puzzle-the-festival-will-be-declared/</link>
         <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
@@ -303,8 +311,6 @@
 &lt;p&gt;TODO：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;MITMH 2024 Epilogue Write-Up&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;waline评论服务&lt;/li&gt;
-&lt;li&gt;pku谜协 元宵灯谜题解&lt;/li&gt;
 &lt;li&gt;归档页面&lt;/li&gt;
 &lt;li&gt;hugo美化&lt;/li&gt;
 &lt;/ul&gt;
