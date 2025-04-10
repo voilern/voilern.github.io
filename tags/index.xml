@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on voilern&#39;s blog</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Recent content in Tags on voilern&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 07 Apr 2025 22:24:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hunt</title>
+        <link>http://localhost:1313/tags/hunt/</link>
+        <pubDate>Mon, 07 Apr 2025 22:24:17 +0800</pubDate>
+        
+        <guid>http://localhost:1313/tags/hunt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Wrap-Up</title>
+        <link>http://localhost:1313/tags/wrap-up/</link>
+        <pubDate>Mon, 07 Apr 2025 22:24:17 +0800</pubDate>
+        
+        <guid>http://localhost:1313/tags/wrap-up/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Puzzle</title>
+        <link>http://localhost:1313/tags/puzzle/</link>
+        <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/puzzle/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Calendar</title>
+        <link>http://localhost:1313/tags/calendar/</link>
+        <pubDate>Thu, 06 Feb 2025 13:14:43 +0800</pubDate>
+        
+        <guid>http://localhost:1313/tags/calendar/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

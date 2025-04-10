@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on voilern&#39;s blog</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on voilern&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about/</guid>
+        <description>&lt;p&gt;这里是&lt;strong&gt;voilern&lt;/strong&gt;的个人博客，在去年（2024）十二月搭建时曾希望用以存放笔记，但最终选择用以发布一些&lt;strong&gt;非笔记类&lt;/strong&gt;的内容。（ /heart obsidian /heart ）&lt;br&gt;
+今后应该主要会更新一些&lt;strong&gt;Puzzle&lt;/strong&gt;相关的内容，例如&lt;strong&gt;单题题解&lt;/strong&gt;、&lt;strong&gt;Hunt的WriteUp&lt;/strong&gt;和也许会有的&lt;strong&gt;个人制作的题目&lt;/strong&gt;&lt;del&gt;真的会有吗&lt;/del&gt;；也可能会发一些自己在折腾时发现的有趣东西，欢迎各位来玩~&lt;/p&gt;
+&lt;p&gt;TODO：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;MITMH 2024 Epilogue Write-Up&lt;/del&gt;（搁置太久了，咕咕咕）&lt;/li&gt;
+&lt;li&gt;归档页面&lt;/li&gt;
+&lt;li&gt;hugo美化&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>链接</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;友情链接 / 常用工具喵~&lt;br&gt;
+想要让自己的博客 / 网站加入该页面请在本页评论区下留言，内容包含：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;title： 焖肉面&lt;/li&gt;
+&lt;li&gt;description： 综合性密码工具&lt;/li&gt;
+&lt;li&gt;website： &lt;a class=&#34;link&#34; href=&#34;https://philippica.github.io/cipher_machine/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://philippica.github.io/cipher_machine/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;icon（可选）： image.jpg&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
