@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Calendar on voilern&#39;s blog</title>
-        <link>http://localhost:1313/tags/calendar/</link>
-        <description>Recent content in Calendar on voilern&#39;s blog</description>
+        <title>Record on voilern&#39;s blog</title>
+        <link>http://localhost:1313/tags/record/</link>
+        <description>Recent content in Record on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 06 Feb 2025 13:14:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/calendar/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 06 Feb 2025 13:14:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/record/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Record | voilern&#39;s Puzzle Hunts Record</title>
         <link>http://localhost:1313/posts/puzzle_hunt_record/</link>
         <pubDate>Thu, 06 Feb 2025 13:14:43 +0800</pubDate>
