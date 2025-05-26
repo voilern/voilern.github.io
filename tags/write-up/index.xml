@@ -163,7 +163,7 @@
 
 .kagetsu { color: #f18518; }
 .voilern { color: #9cbefd; }
-.lini { color: #dfd3fe; }
+.lini { color: #dcd2ee; }
 .missile { color: #51ad5e; }
 
 &lt;/style&gt;
