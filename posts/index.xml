@@ -6,7 +6,15 @@
         <description>Recent content in Posts on voilern&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 27 May 2025 11:57:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 17 Aug 2025 20:14:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hunt_CCBC16</title>
+        <link>http://localhost:1313/posts/hunt_ccbc16/</link>
+        <pubDate>Sun, 17 Aug 2025 20:14:11 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/hunt_ccbc16/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Hunt | 第九届上海交通大学校园寻宝 Write-up</title>
         <link>http://localhost:1313/posts/hunt_sjtu_campus_hunt_2025/</link>
         <pubDate>Tue, 27 May 2025 11:57:26 +0800</pubDate>
