@@ -34,10 +34,7 @@ jobs:
       - name: Deploy to voilern.github.io
         uses: peaceiris/actions-gh-pages@v4
         with:
-          # 同账号可尝试使用 GITHUB_TOKEN，若无权限再改用 PAT/Deploy Key
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # 如果需要改用 PAT，将上行改为: token: ${{ secrets.PAGES_TOKEN }}
-          external_repository: voilern/voilern.github.io
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: ./public
           force_orphan: true
