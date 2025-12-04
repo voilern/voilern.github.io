@@ -2,6 +2,7 @@
 title: FDU Puzzle Hunt 2025 Write-up
 date: 2025-04-27T21:02:18+08:00
 description:
+    Final Deadline Upcoming！
 tags:
     - Hunt
     - Write-up

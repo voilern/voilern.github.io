@@ -2,6 +2,7 @@
 title: 第九届上海交通大学校园寻宝 Write-up
 date: 2025-05-27T11:57:26+08:00
 description:
+    走了 15000 步 & 骑了 24km 单车 & 坐了 2 回高铁的交大一日游
 tags:
     - Hunt
     - Write-up

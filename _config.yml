@@ -9,7 +9,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://voilern.github.io/
+url: https://blog.voilern.cn
 root: /
 permalink: posts/:title/ 
 permalink_defaults:

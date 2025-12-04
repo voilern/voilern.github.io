@@ -2,6 +2,7 @@
 title: Silph Puzzle Hunt 2025 Write-up
 date: 2025-08-22T22:26:51+08:00
 description:
+    个人心中 25 年质量和体验都排在最前列的 hunt 之一！
 tags:
     - Hunt
     - Write-up

@@ -2,6 +2,9 @@
 title: CCBC 16 Write-up
 date: 2025-08-17T20:14:11+08:00
 description:
+    【CCBC16】内测组绝密访谈 </br>
+    JP：史上最佳中文 hunt。</br>
+    Brightly_：太顶级了，赞美之词无以言表。
 tags:
     - Hunt
     - Write-up
@@ -20,7 +23,6 @@ comments: true
 .RD { color: #90d056; }
 
 </style>  
-
 
 <center>
 

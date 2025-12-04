@@ -1,0 +1,43 @@
+name: Deploy Hexo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: |
+          npx hexo clean
+          npx hexo g
+
+      - name: Deploy to voilern.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # 同账号可尝试使用 GITHUB_TOKEN，若无权限再改用 PAT/Deploy Key
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 如果需要改用 PAT，将上行改为: token: ${{ secrets.PAGES_TOKEN }}
+          external_repository: voilern/voilern.github.io
+          publish_branch: main
+          publish_dir: ./public
+          force_orphan: true
