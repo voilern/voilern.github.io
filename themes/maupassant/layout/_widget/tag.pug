@@ -1,0 +1,6 @@
+.widget
+  .widget-title
+    i.fa.fa-star-o
+    span.widget-title-text= __('tags')
+  .tagcloud
+    != tagcloud({min_font: 15, max_font: 15, amount: 100, orderby: 'count'})

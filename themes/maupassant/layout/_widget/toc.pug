@@ -1,0 +1,7 @@
+if page.toc !== false && page.content
+  .widget.toc-wrapper
+    .widget-title
+      i.fa.fa-list
+      span.widget-title-text= __('contents')
+    #toc-sidebar.toc-article
+      != toc(page.content, {list_number: theme.toc_number})
