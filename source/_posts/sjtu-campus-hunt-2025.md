@@ -93,7 +93,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 
 <center>
 
-<video width="600" height="320" controls>
+<video controls style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   <source src="https://ik.imagekit.io/voilern/%E6%A0%A1%E5%8F%8B%E6%9E%97.mp4?updatedAt=1748328631643" type="video/mp4">
 </video>
 

@@ -43,8 +43,6 @@ Hunt网站： [FDU Puzzle Hunt 2025](https://fduph25.fdupuzzle.fun)
 
 </center>
 
----  
-
 ## 二月
 
 ### 先进命名法

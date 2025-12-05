@@ -45,5 +45,29 @@ if page.mathjax
 if page.mathjax2
   include mathjax2.pug
 
+// Pangu: 自动处理中西文间距，跳过归档列表
+script(type='text/javascript', src='https://unpkg.com/pangu@7.2.0/dist/browser/pangu.umd.js')
+script.
+  (function() {
+    var applyPangu = function() {
+      if (!window.pangu || typeof pangu.spacingText !== 'function') return;
+      var nodes = document.querySelectorAll('.post-content');
+      nodes.forEach(function(el) {
+        if (el.closest('.post-archive')) return; // 归档页列表不处理
+        var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+        var texts = [];
+        while (walker.nextNode()) texts.push(walker.currentNode);
+        texts.forEach(function(node) {
+          node.data = pangu.spacingText(node.data);
+        });
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', applyPangu);
+    } else {
+      applyPangu();
+    }
+  })();
+
 script(type='text/javascript', src=url_for(theme.js) + '/codeblock-resizer.js' + '?v=' + theme.version)
 script(type='text/javascript', src=url_for(theme.js) + '/smartresize.js' + '?v=' + theme.version)

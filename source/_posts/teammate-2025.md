@@ -47,8 +47,6 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 
 <span class="missile">missile</span>：小火箭它就是好玩呀
 
---- 
-
 ## 题目区
 
 <span class="kagetsu">Kagetsu</span>：本来考虑了一下要不要按时间线分题目，画出结构之后决定还是一个区的全放一起得了  
@@ -334,7 +332,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="kagetsu">Kagetsu</span>：太酷了。看到语言动起来的那一刻莫名有点感动。但是我真的不会做视频（视频还被退回一次，有种糊弄作业被老师批评的感觉.jpg）  
 <center>
 
-<video width="600" height="320" controls>
+<video controls style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   <source src="https://ik.imagekit.io/voilern/response2.mp4?updatedAt=1744039869674" type="video/mp4">
 </video>
 </center>
@@ -419,8 +417,6 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="voilern">voilern</span>：见证者限时谜题说是（）本来准备团建的，尝试后发现团建难度有点点大，遂转为单刷，可能比较适合有充分时间、能线下or线上语音的队伍团建T T
 
 <span class="lini">Linight</span>：不会按钮拼单词，制冷制热的猜单词也有点浪费时间，对少人的队伍来说游戏体验确实不太好，没能充分参与还是有些遗憾。  
-
----
 
 ## Fun Stuff  
 

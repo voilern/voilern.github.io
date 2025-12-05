@@ -26,11 +26,12 @@ comments: false
 | [Huntingale 2025](https://huntingale.nightmeow.site/) | 2025/04 | Celestial \<Catellite> | 5 | 31 |
 | [REXEI Hunt](http://www.rexei-hunt.fun/) | 2025/05 | 反卷帕单刷 | 6 | 10 |
 | [Nano Hunt](https://hunt.csart.top/) | 2025/05 |  Celestial \<Catellite> | 2 | ~12 |
-| 解谜·环游世界（公众号 Firegod Puzzle） | 2025/05 | 云上交游 | 6 | 2 |
+| 解谜·环游世界 | 2025/05 | 云上交游 | 6 | 2 |
 |  [第九届上海交通大学校园寻宝](https://campushunt.justhunt.cn/home) | 2025/05 | 云上交游 | 6 | 1 |
 | [金牌解谜](https://goldenph.art/home) | 2025/07 | Celestial \<Catellite> | 5 | 31 |
 | [Silph Puzzle Hunt](https://silphpuzzlehunt.com/) | 2025/07 | Celestial \<Catellite> | 4 | 46 |
 | [CCBC 16](https://ccbc16.cipherpuzzles.com/) | 2025/08 | Celestial \<Catellite> | 5 | 23 |
 | [2025 Galactic Puzzle Hunt](https://2025.galacticpuzzlehunt.com/) | 2025/08 | Celestial \<Catellite> | 10 | 35 |
 | [Unity Sanity - Treasure Chase](https://us-tc.top) | 2025/10 | Celestial \<Catellite> | 6 | 18 |
+| [ZJU Puzzle Hunt 2025](https://2025.zjuph.fun/home) | 2025/11 | Celestial \<Catellite> | 4 | 15 |
 </details>
