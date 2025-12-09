@@ -162,7 +162,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 ### 四个字母
 <span class="fivero">Fivero</span>：SJTU挺好想到的，但是没想过把字母直接当成可走路径。出了five lakes之后就不知道干啥了  
 
-Chiaki：（作为交大土著的作用-1）我就说我在哪见过这种4454的SJTU！但是感觉并非学森路，更多是元培路（不过确实学森路的路边上有路标）  
+<span class="chiaki">Chiaki</span>：（作为交大土著的作用-1）我就说我在哪见过这种4454的SJTU！但是感觉并非学森路，更多是元培路（不过确实学森路的路边上有路标）  
 
 <span class="kagetsu">Kagetsu</span>：出了five lakes之后就不知道干啥了，@voilern速速前往美国  
 
@@ -234,6 +234,7 @@ Chiaki：（作为交大土著的作用-1）我就说我在哪见过这种4454�
 
 ![](https://s2.loli.net/2025/05/27/vuHy2tOV1ZzbmQ9.png)
 </center>
+
 <span class="fivero">Fivero</span>：解锁瞬间提示全开，第二追的太紧导致的，开共享白板做的，团建好。  
 
 <span class="kagetsu">Kagetsu</span>：团建好  

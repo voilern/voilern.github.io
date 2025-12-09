@@ -17,7 +17,7 @@ comments: false
 | [JUST Puzzle Hunt](https://justhunt.cn/#/)  | 2024/09 | 天空度假自驾游  | 3        | 44       |
 | [玥hunt](https://static.yuehunt.fun/)  | 2024/10 | Rosmarinus  | 2   | 103      |
 | [Seco Puzzle Hunt](https://secopuzzle.com/)   | 2025/01 | Rosmarinus   | 1        | 49       |
-| [原来是这样 蛇年闯关](https://2025.yuanyang.app/)    | 2025/01 |   /   | 2        | 1        |
+| [原来是这样 蛇年闯关](https://2025.yuanyang.app/) | 2025/01 |   /   | 2 | 1 |
 | [Cornsnaky's Snake Year Puzzle Hunt](https://cornsnaky.dearfad.com/) | 2025/02 | Celestial \<Catellite> | 6   | 6   |
 | 第三届亦乐杯 | 2025/02 | Celestial \<Catellite> | 3 | ~10 |
 | [MITMH 2024 Epilogue](https://epilogue.mitmh2024.com/) | 2025/03 | 反卷笑红尘 | >10 | 34 |
@@ -34,4 +34,5 @@ comments: false
 | [2025 Galactic Puzzle Hunt](https://2025.galacticpuzzlehunt.com/) | 2025/08 | Celestial \<Catellite> | 10 | 35 |
 | [Unity Sanity - Treasure Chase](https://us-tc.top) | 2025/10 | Celestial \<Catellite> | 6 | 18 |
 | [ZJU Puzzle Hunt 2025](https://2025.zjuph.fun/home) | 2025/11 | Celestial \<Catellite> | 4 | 15 |
+| [LN Hunt](https://ln-hunt.com/) | 2025/12 | Celestial \<Catellite> | 5 | 21 |
 </details>
