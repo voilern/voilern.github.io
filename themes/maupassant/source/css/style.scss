@@ -33,7 +33,10 @@ input, button, textarea,
     font-family: var(--font-sans-primary) !important;
 }
 
-code, pre {
+code,
+code *,
+pre,
+pre * {
     font-family: var(--font-code-primary) !important;
 }
 
@@ -46,6 +49,20 @@ textarea,
 .pure-g [class *="pure-u"] {
     /* Set your content font stack here: */
     font-family: var(--font-sans-primary) !important;
+}
+
+/* Keep formula output on TeX-like fonts instead of inheriting LXGW */
+.MathJax,
+.MathJax_Display,
+.mjx-chtml,
+.mjx-chtml *,
+.mjx-math,
+.mjx-math *,
+.katex,
+.katex * {
+    font-family: "KaTeX_Main", "Latin Modern Math", "TeX Gyre Termes Math", "STIXGeneral", "Times New Roman", serif !important;
+    font-style: normal;
+    font-weight: normal;
 }
 
 html {
@@ -464,7 +481,7 @@ div {
                 margin: 0 5px;
                 padding: 0 5px;
                 background: #f7f8f8;
-                font-family: Menlo, Consolas, monospace !important;
+                font-family: var(--font-code-primary) !important;
             }
 
             a {
@@ -515,7 +532,7 @@ div {
                 margin: 0 5px;
                 padding: 0px 5px;
                 background: #f7f8f8;
-                font-family: Menlo, Consolas, monospace !important;
+                font-family: var(--font-code-primary) !important;
             }
 
             a {
@@ -1197,7 +1214,7 @@ figure.highlight,
     .code,
     .tag {
         background-color: inherit;
-        font-family: Menlo, Consolas, monospace;
+        font-family: var(--font-code-primary);
         border: none;
         padding: 0;
         margin: 0;
@@ -1264,7 +1281,7 @@ figure.highlight,
 
     .line,
     .line-number {
-        font-family: Menlo, Consolas, monospace;
+        font-family: var(--font-code-primary);
         font-size: 1em;
         margin: 0 0 5px 0;
         user-select: none;

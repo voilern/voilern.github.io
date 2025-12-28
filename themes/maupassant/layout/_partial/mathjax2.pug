@@ -1,1 +1,17 @@
+// 使用 MathJax TeX 字体，避免被全局中文字体覆盖
+script(type='text/x-mathjax-config').
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] },
+    CommonHTML: {
+      font: "TeX",
+      matchFontHeight: false,
+      mtextInheritFont: false
+    },
+    "HTML-CSS": {
+      availableFonts: ["TeX"],
+      webFont: "TeX",
+      matchFontHeight: false
+    },
+    SVG: { font: "TeX" }
+  });
 script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML', async)

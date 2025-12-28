@@ -1,0 +1,48 @@
+// KaTeX render for posts/pages (serve locally to avoid CDN blocking)
+link(rel='stylesheet', href=url_for('/lib/katex/katex.min.css'))
+script(defer, src=url_for('/lib/katex/katex.min.js'))
+script(defer, src=url_for('/lib/katex/contrib/auto-render.min.js'))
+script.
+  (function() {
+    var renderAll = function() {
+      if (!window.katex || typeof window.renderMathInElement !== 'function') {
+        setTimeout(renderAll, 50);
+        return;
+      }
+
+    document.querySelectorAll('.post-content, .article-entry').forEach(function(el) {
+      // 只在公式片段内把 <br> 转成换行，避免破坏普通手动换行
+      var html = el.innerHTML;
+      var escapeRegex = function(str) {
+        return str.replace(/[-/\\^$*+?.()|[\\]{}]/g, '\\$&');
+      };
+      var replaceBrInMath = function(str, left, right) {
+        var pattern = new RegExp(escapeRegex(left) + '([\\s\\S]*?)' + escapeRegex(right), 'g');
+        return str.replace(pattern, function(match, body) {
+          return left + body.replace(/<br\\s*\\/?>(\\s*)/gi, '\n$1') + right;
+        });
+      };
+      html = replaceBrInMath(html, '$$', '$$');
+      html = replaceBrInMath(html, '\\[', '\\]');
+      html = replaceBrInMath(html, '\\(', '\\)');
+      el.innerHTML = html;
+
+        window.renderMathInElement(el, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '$', right: '$', display: false}
+          ],
+          ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+          throwOnError: false
+        });
+      });
+    };
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      renderAll();
+    } else {
+      document.addEventListener('DOMContentLoaded', renderAll);
+    }
+  })();

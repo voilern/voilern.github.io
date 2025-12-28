@@ -4,5 +4,7 @@ db.json
 *.log
 node_modules/
 public/
+reference/
 .deploy*/
 _multiconfig.yml
+AGENTS.md

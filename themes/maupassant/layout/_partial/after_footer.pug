@@ -39,10 +39,13 @@ if theme.copycode == true
 if theme.external_css == true
   link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/external.css' + '?v=' + theme.version)
 
-if page.mathjax
+if config.katex || page.katex
+  include katex.pug
+
+if config.mathjax || page.mathjax
   include mathjax.pug
 
-if page.mathjax2
+if config.mathjax2 || page.mathjax2
   include mathjax2.pug
 
 // Pangu: 自动处理中西文间距，跳过归档列表
@@ -54,7 +57,19 @@ script.
       var nodes = document.querySelectorAll('.post-content');
       nodes.forEach(function(el) {
         if (el.closest('.post-archive')) return; // 归档页列表不处理
-        var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+        var walker = document.createTreeWalker(
+          el,
+          NodeFilter.SHOW_TEXT,
+          {
+            acceptNode: function(node) {
+              var parent = node.parentElement;
+              if (!parent) return NodeFilter.FILTER_REJECT;
+              // 跳过 KaTeX/MathJax/代码区域，避免破坏公式和代码格式
+              if (parent.closest('.katex, .MathJax, pre, code')) return NodeFilter.FILTER_REJECT;
+              return NodeFilter.FILTER_ACCEPT;
+            }
+          }
+        );
         var texts = [];
         while (walker.nextNode()) texts.push(walker.currentNode);
         texts.forEach(function(node) {
