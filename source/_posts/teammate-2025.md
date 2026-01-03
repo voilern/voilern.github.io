@@ -25,13 +25,13 @@ comments: true
 
 by 📍Celestial \<Catellite>📍  
 
-![](https://s2.loli.net/2025/04/07/YEgiXDuPQaeNcbZ.png)  
+<img src="/img/teammate-2025/teammate-2025-1.png" alt="" />  
 
 </center>
 <center>
 
 或者应该是  
-![](https://s2.loli.net/2025/04/07/6fHQMeC7q91KYri.png)    
+<img src="/img/teammate-2025/teammate-2025-2.png" alt="" />    
 
 </center>
 
@@ -53,7 +53,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 
 <center>
 
-![](https://s2.loli.net/2025/04/07/GwlYpmR82sjWxrF.png)  
+<img src="/img/teammate-2025/teammate-2025-3.png" alt="" />  
 
 </center>
 
@@ -73,7 +73,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 
 <center>
 
-![](https://s2.loli.net/2025/04/07/RdfkD3uitcES9GI.png)  
+<img src="/img/teammate-2025/teammate-2025-4.png" alt="" />  
 
 *生草的blowout*  
 </center>
@@ -123,7 +123,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="kagetsu">Kagetsu</span>：人类若只时刻之卡在第一个解： 
 <center>
 
-![](https://s2.loli.net/2025/04/07/ZLltQhdR4Wop62B.png)  
+<img src="/img/teammate-2025/teammate-2025-5.png" alt="" />  
 </center>
 
 感觉扑克牌和小阿卡纳本身就有对应，导致又卡在了扑克牌解
@@ -163,7 +163,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="missile">missile</span>：完赛了（大嘘）  
 <center>
 
-![](https://s2.loli.net/2025/04/07/cpLImGWSudjlQMh.png)  
+<img src="/img/teammate-2025/teammate-2025-6.png" alt="" />  
 </center>
 
 ### Paingram
@@ -201,7 +201,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="voilern">voilern</span>：发现第一个双解（Double Dipping）后belike：  
 <center>
 
-![](https://s2.loli.net/2025/04/07/vmEUjbCylGRfkBA.png)  
+<img src="/img/teammate-2025/teammate-2025-7.png" alt="" />  
 </center>
 
 难度不高，非常好玩的一个区，尤其这个Meta简直太帅了
@@ -219,8 +219,8 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="voilern">voilern</span>：注意到Celestial \<Catellite> 中含有les  
 <center>
 
-![](https://s2.loli.net/2025/04/07/m31Oo2DYGdAraML.png)  
-![](https://s2.loli.net/2025/04/07/QH8KwlW1D2oFmJG.png)  
+<img src="/img/teammate-2025/teammate-2025-8.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-9.png" alt="" />  
 </center>
 
 ### Look At Your Keyboard
@@ -310,7 +310,7 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="voilern">voilern</span>：看了三遍文本也一点都没想到Sam是Casey前妻 & Jamie现任妻子  
 <center>
 
-![](https://s2.loli.net/2025/04/07/XpftPblMmsu3hqQ.png)  
+<img src="/img/teammate-2025/teammate-2025-10.png" alt="" />  
 
 <del>其实是表</del>
 </center>
@@ -340,8 +340,8 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 <span class="voilern">voilern</span>：原来语言上标的旋转符号是真的在转，太帅了，以及这题如果可以线下的话就太好了，最符合teammate名字的一集  
 <center>
 
-![](https://s2.loli.net/2025/04/07/qn2mheS6OPvNbQj.png)  
-![](https://s2.loli.net/2025/04/07/ntBQadcLM3lRyC5.png)  
+<img src="/img/teammate-2025/teammate-2025-11.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-12.png" alt="" />  
 </center>
 
 ## Greenhouse
@@ -422,11 +422,11 @@ Hunt网站： [Teammate Hunt 2025](https://2025.teammatehunt.com/)
 
 <center>
 
-![](https://s2.loli.net/2025/04/07/KDHmgQnPAZTay7I.png)  
-![](https://s2.loli.net/2025/04/07/RfQymdtCnoAb5TZ.png)  
-![](https://s2.loli.net/2025/04/07/7ES9eFP1fNwdOZD.png)  
-![](https://s2.loli.net/2025/04/07/7wblmFKgLHEj4Vx.png)  
-![](https://s2.loli.net/2025/04/07/BfRpbUFgy9cKtTD.png)  
-![](https://s2.loli.net/2025/04/07/WIjGUX6y2k5wnuE.png)  
-![](https://s2.loli.net/2025/04/07/mLCZsJU7jt3hWA2.png)  
+<img src="/img/teammate-2025/teammate-2025-13.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-14.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-15.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-16.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-17.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-18.png" alt="" />  
+<img src="/img/teammate-2025/teammate-2025-19.png" alt="" />  
 </center>  

@@ -94,20 +94,20 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkH049Fr0HNO65l47JQ30qhT.png?updatedAt=1755873439786)  
+<img src="/img/silph-2025/silph-11.png" alt="" />  
 《最短的吧》
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHKsyGAgvVOcb4pP1hQBqmV.png?updatedAt=1755873440241)
+<img src="/img/silph-2025/silph-15.png" alt="" />
 </center>
 
 直到完赛也没做出 Dimmer Wits 的任何一个小题，解析里作者的话感觉十分应景：
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHkSOfLJ2BDgauIB95DSeeH.png?updatedAt=1755873439813)
+<img src="/img/silph-2025/silph-19.png" alt="" />
 </center>
 
 大概看了一会 Dimmer Wits 感到绝望就去接着建这题的图了，作了一个差不多能看的图之后格物致知突然想到是不是某种状态图，再看节点数发现刚好是 26\*5 = 130，主文本和操作也暗示了古典密码，之后就一路畅通了……吗？结果根据图和密码推理各个节点代表的字母也花了很久很久……用古典密码建图再用纯文本形式呈现出来真是太好的想法了，但这题不建图只通过文本来做几乎不可能吧。以及想起一道类似的题：[Toys' Cafe](https://epilogue.mitmh2024.com/puzzle/toys-cafe)，也很喜欢。
@@ -120,7 +120,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHa3q6n-f9PVYbWY574Ubds.png?updatedAt=1755873439828)
+<img src="/img/silph-2025/silph-16.png" alt="" />
 </center>
 
 ### Dimmer Wits
@@ -135,7 +135,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHGgeFyd89HapS3e-mjhVOz.png?updatedAt=1755873439052)
+<img src="/img/silph-2025/silph-12.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：第二天一早准备去赶飞机，想着在飞机上闲着没事不如做没人碰的纸笔，本年度 hunt 生涯个人最高成就之一单刷 LITS 就这么开始了.jpg
@@ -148,22 +148,22 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHK1y72CEtBQ74wO4UrbY5H.png?updatedAt=1755873439493)
+<img src="/img/silph-2025/silph-14.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHknoCH8vpBUpzRYuwDb0L8.png?updatedAt=1755873439278)
+<img src="/img/silph-2025/silph-20.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkFCXNf1_SxAL4c1X8-RlKa8.png?updatedAt=1755873433551)
+<img src="/img/silph-2025/silph-3.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHe_yTdbZBEMoobFzWThdyL.png?updatedAt=1755873439228)  
+<img src="/img/silph-2025/silph-17.png" alt="" />  
 输给 TCG 大神了（
 </center>
 
@@ -173,22 +173,22 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkFkcj4Gt1hAY5EyAJ3jZ1Rv.png?updatedAt=1755873433688)
+<img src="/img/silph-2025/silph-4.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkGdR9bwIJJBWYps1A3MdfpO.png?updatedAt=1755873433642)
+<img src="/img/silph-2025/silph-7.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkGlxH1tpm1Al7D2Tc1-FO24.png?updatedAt=1755873433452)
+<img src="/img/silph-2025/silph-8.png" alt="" />
 </center>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkH-dxMqMvJPE4YUhiKM5g0y.png?updatedAt=1755873433802)
+<img src="/img/silph-2025/silph-10.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：自从把 Trading Places 交给 <span class="kagetsu">Kagetsu</span> 之后腰不酸了腿不疼了觉也睡得好了
@@ -207,7 +207,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHJlHCsHHVA_4rvJwZwtqwz.png?updatedAt=1755873439265)
+<img src="/img/silph-2025/silph-13.png" alt="" />
 </center>
 
 ### Meta - The Haunted Graveyard
@@ -236,7 +236,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkGUqSzv8WdE24QT_EVeuxJS.png?updatedAt=1755873433848)
+<img src="/img/silph-2025/silph-6.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：FFT 为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换为什么不是快速傅里叶变换
@@ -281,7 +281,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkF6EWTJkMhNpLWCafk8sJlZ.png?updatedAt=1755873433719)
+<img src="/img/silph-2025/silph-2.png" alt="" />
 </center>
 
 然而再次没想到只是个开始。虽然又是数据库查找，但是做完之后仍然不得不佩服出题人的思路
@@ -294,14 +294,14 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkG2BD7ugKZNy6QOJCNbVr7D.png?updatedAt=1755873433638)
+<img src="/img/silph-2025/silph-5.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：tmmt25 final meta 被 <span class="kagetsu">Kagetsu</span> 单刷掉了，这次该我玩了.jpg
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkHk9F8Zoe9A5ZuqtNxvWthf.png?updatedAt=1755873438731)
+<img src="/img/silph-2025/silph-18.png" alt="" />
 </center>
 
 我说能单刷完这题小游戏部分的就算之前不是 ADHD 之后也得是了）不过依然也是有诀窍的，为了第二步把整个游戏通关了两次，第二次就熟练到一命通关全部了（此处省略一个长达 30 分钟的视频）
@@ -316,7 +316,7 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkESHj_r7KBD4p8RrGuG6y81.png?updatedAt=1755873433918)
+<img src="/img/silph-2025/silph-1.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：队友团建这题时正在单刷 Cosmic Squad，直到最后也没参与到。
@@ -345,5 +345,5 @@ Hunt网站： [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/silph/AgAABTIVXkGqL_broFtKApP-MjMdlNPw.png?updatedAt=1755873434508)
+<img src="/img/silph-2025/silph-9.png" alt="" />
 </center>

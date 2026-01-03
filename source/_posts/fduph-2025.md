@@ -39,7 +39,7 @@ Hunt网站： [FDU Puzzle Hunt 2025](https://fduph25.fdupuzzle.fun)
 
 <center>
 
-![](https://s2.loli.net/2025/04/27/QPcNLwxlzktA9oY.png)  
+<img src="/img/fduph-2025/fduph-2025-1.png" alt="" />  
 
 </center>
 
@@ -213,7 +213,7 @@ Hunt网站： [FDU Puzzle Hunt 2025](https://fduph25.fdupuzzle.fun)
 
 <center>
 
-![](https://s2.loli.net/2025/04/27/46b1knqlMZxRePc.png)  
+<img src="/img/fduph-2025/fduph-2025-2.png" alt="" />  
 
 </center>
 

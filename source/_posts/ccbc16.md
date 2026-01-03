@@ -32,7 +32,7 @@ by Celestial \<Catellite>
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/f3cae57c-d3c9-456c-b5c3-60f1a79cb58a.png?updatedAt=1755436355390)
+<img src="/img/ccbc16/ccbc16-1.png" alt="" />
 
 <span class="voilern">本队的提交时间统计图！</span> 
 </center>
@@ -49,7 +49,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/c6a8c6be-abb8-4c54-bd6c-c7861f15daae.png?updatedAt=1755436354736)
+<img src="/img/ccbc16/ccbc16-2.png" alt="" />
 </center>
 
 <span class="RD">He2D</span>：解的最爽的一次ph，造纸区的设计神中神
@@ -76,7 +76,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/3c492c60-0e47-40db-bb9c-33c053fd13fe.png?updatedAt=1755436348642)
+<img src="/img/ccbc16/ccbc16-3.png" alt="" />
 </center>
 
 之后Nutri了senAnazA发现没几个人话，尝试提交了几个全错，然后就开始怀疑我前面是不是做错了，最后举白旗投降。
@@ -93,7 +93,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 </center>
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/0c31cc51-9044-44d5-a2b1-b792dd3f4213.png?updatedAt=1755436348488)
+<img src="/img/ccbc16/ccbc16-4.png" alt="" />
 </center>
 
 ### 小题大做
@@ -150,7 +150,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/d32aaf85-2217-49d9-b530-b0a76f9f85d4.png?updatedAt=1755436355531)
+<img src="/img/ccbc16/ccbc16-5.png" alt="" />
 
 教教.jpg
 </center>
@@ -205,9 +205,9 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/1deeee9b-014b-404a-8e72-afd2d1309666.png?updatedAt=1755436348209)
+<img src="/img/ccbc16/ccbc16-6.png" alt="" />
 
-![](https://ik.imagekit.io/voilern/C16/170d1b91-67f2-4d8f-afd8-935dc9d3c91b.png?updatedAt=1755436348845)
+<img src="/img/ccbc16/ccbc16-7.png" alt="" />
 
 还有图论大师
 </center>
@@ -302,11 +302,11 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/8dde1fab-9125-4596-b981-4eb19616ee6c.png?updatedAt=1755436354938)
+<img src="/img/ccbc16/ccbc16-8.png" alt="" />
 
 是 7x7 拉丁方吗
 
-![](https://ik.imagekit.io/voilern/C16/38b296b1-3d10-458d-aa73-5bae4362d439.png?updatedAt=1755436348583)
+<img src="/img/ccbc16/ccbc16-9.png" alt="" />
 </center>
 
 ### 一位参赛者......
@@ -383,11 +383,11 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/62f679c1-2d21-446e-9cd3-7956ab5b88a5.png?updatedAt=1755436354822)
+<img src="/img/ccbc16/ccbc16-10.png" alt="" />
 
-![](https://ik.imagekit.io/voilern/C16/39aa0554-8055-4fd5-82c7-d6e4b5b52696.png?updatedAt=1755436348592)
+<img src="/img/ccbc16/ccbc16-11.png" alt="" />
 
-![](https://ik.imagekit.io/voilern/C16/26ed0560-a66b-40eb-b6fe-8bd69b4db157.png?updatedAt=1755436348577)
+<img src="/img/ccbc16/ccbc16-12.png" alt="" />
 </center>
 
 ### 只说明书
@@ -478,7 +478,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/e916c0cf-2a6e-4d97-91ba-8865370ef547.png?updatedAt=1755436355399)
+<img src="/img/ccbc16/ccbc16-13.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：我有Blender，让我看看.jpg
@@ -489,7 +489,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/27076146-0c5f-4fe8-80ab-8bc255e0e3c5.png?updatedAt=1755436348480)
+<img src="/img/ccbc16/ccbc16-14.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：太会凑了，不过最后从韵母反推汉字卡壳有些难受（
@@ -506,7 +506,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/0bfc40c9-f282-494f-bd09-dc0a876b4cf8.png?updatedAt=1755436348397)
+<img src="/img/ccbc16/ccbc16-15.png" alt="" />
 </center>
 
 <span class="voilern">voilern</span>：以为标题是纯玩梗，没往原神上去想，开了提示发现又是思路全对但没做的。之后靠早年的原神经验很顺利地搜完了所有clue，但是由于角色名敏感度不高卡在提取了！以及疑似大家在搜这题数据库时都搜到了同一个文档，偶遇了反卷成员，确实是“异世相遇，尽享美味”（
@@ -517,7 +517,7 @@ Hunt网站： [CCBC 16](https://ccbc16.cipherpuzzles.com/)
 
 <center>
 
-![](https://ik.imagekit.io/voilern/C16/549254c2-c4a6-4843-8ae5-e8a5055f8f01.png?updatedAt=1755436348824)
+<img src="/img/ccbc16/ccbc16-16.png" alt="" />
 </center>
 
 ### 元元元……元谜题

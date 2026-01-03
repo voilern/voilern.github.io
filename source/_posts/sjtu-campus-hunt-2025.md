@@ -73,7 +73,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/1TXyG45dUjn6LQI.png)  
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-10.png" alt="" />  
 <em>涂鸦墙掠影</em>  
 
 </center>
@@ -97,7 +97,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
   <source src="https://ik.imagekit.io/voilern/%E6%A0%A1%E5%8F%8B%E6%9E%97.mp4?updatedAt=1748328631643" type="video/mp4">
 </video>
 
-![](https://s2.loli.net/2025/05/27/JI5sypKEm3itxdB.png)  
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-1.png" alt="" />  
 
 <em>含有班级代码或与目标比较接近的部分挂牌，事实上在线下翻了远不止这些T T</em>
 </center>
@@ -156,7 +156,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/1qShZpwCnUG9r6R.png)
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-2.png" alt="" />
 </center>
 
 ### 四个字母
@@ -174,7 +174,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/aIYzD1gftX6vk9J.png)
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-3.png" alt="" />
 </center>
 
 ### 大慈善家
@@ -232,7 +232,7 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 ### 最终谜题
 <center>
 
-![](https://s2.loli.net/2025/05/27/vuHy2tOV1ZzbmQ9.png)
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-4.png" alt="" />
 </center>
 
 <span class="fivero">Fivero</span>：解锁瞬间提示全开，第二追的太紧导致的，开共享白板做的，团建好。  
@@ -270,25 +270,25 @@ Hunt网站： [第九届上海交通大学校园寻宝](https://campushunt.justh
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/bkuxCgP8JdaUwLc.png)
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-5.png" alt="" />
 </center>
 
 接下来就是大家喜闻乐见的真人pk抢夺密码锁环节（x）在一番吉列的豆蒸后西番莲果派老师顺利地破坏了最终谜题的物理结构，包和锁原地分离，staff终于看不下去，要求解开密码锁才可以打开包取走奖品，跑了一天路的v某此时已经停摆，被西番莲果派老师他们队反应过来正确密码后率先拿到了奖品——一杯鱼牌！  
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/QvK3xRIwBdbf6aX.png)  
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-6.png" alt="" />  
 </center>
 
 西番莲果派老师走后也是终于想到了最终密码的解法，大家都没料到最后还会来这么一出，太精彩了XD  
 
 <center>
 
-![](https://s2.loli.net/2025/05/27/6ZC4kHVBMTIrci5.png)
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-7.png" alt="" />
 
-![](https://s2.loli.net/2025/05/27/Wiw76ogusyej8HN.png)  
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-8.png" alt="" />  
 
-![](https://s2.loli.net/2025/05/27/npm6uwzRkQlxyXq.png)  
+<img src="/img/sjtu-campus-hunt-2025/sjtu-campus-hunt-2025-9.png" alt="" />  
 
 </center>
 

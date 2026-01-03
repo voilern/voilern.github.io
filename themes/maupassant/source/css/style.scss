@@ -554,9 +554,14 @@ div {
 
         img {
             max-width: 100%;
-            padding: 0.5em 0;
-            margin: auto;
             display: block;
+            margin: 0 auto 1.234em; /* match paragraph spacing for standalone images */
+            padding: 0;
+        }
+
+        /* 避免 markdown 包裹在段落内的图片出现双重底部留白 */
+        p img {
+            margin-bottom: 0;
         }
 
         ul,

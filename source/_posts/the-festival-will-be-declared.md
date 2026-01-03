@@ -20,7 +20,7 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/02/A1wiUg9G3XYIum6.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-1.png" alt="" />
 </center>
 
 腾讯文档：[盛典启幕：The Festival Will Be Declared](https://docs.qq.com/sheet/DZVp5Tk1zRnVLU2Fk)  
@@ -31,22 +31,22 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/02/SJITny8ukCDQ6aF.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-2.png" alt="" />
 </center>
 
 下一步也很显然：找出wordsearch中词所在的位置，并将找到的词与右侧的（ n ）相对应，在对应过程中不难注意到右侧单词都是按照**字典序**进行排列，可用以检查正误和定位剩余单词的前几个字母。总之用尽各种方法艰难完成wordsearch后我们会得到下图：  
 
 <center>
 
-![](https://s2.loli.net/2025/03/02/QutTcU25CJi8lD4.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-3.png" alt="" />
 </center>
 
 在wordsearch过程中不难注意到部分**关联性较强**的单词，我们最早注意到的是**waiting for love**和**without you**都是英文歌曲，**california**和**georgia**都是美国州名（这里实际上有问题，我们在下一步接近完成时才在提示下改过来），但在之后并没有意识到这实际上是一个**Connecting Wall**，直到题目发布1h后的提示二才让我们有了新的进展。接下来自然是要把这32个词分为8类，完成这一步后表格会变成下图中这样：  
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/gST6afcZo8sVCNU.png)  
-![](https://s2.loli.net/2025/03/03/GPeR8Njb3lnFOVm.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-4.png" alt="" />
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-5.png" alt="" />
 <i>表中？？？对应的分类应为<strong>与世界四大长河之一的名字有关</strong>，<strong>五行+词</strong>应为<strong>五种古典元素+词</strong></i>
 </center>
 
@@ -56,7 +56,7 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/4GnYsP5fIO2RFQq.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-6.png" alt="" />
 <i>图中红字为做题时没有找到的地标名</i>
 </center>  
 
@@ -64,16 +64,16 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/oNMUlPsI2uj4tq7.png)  
-![](https://s2.loli.net/2025/03/03/CXGL3a21bwozf4d.png)
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-7.png" alt="" />
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-8.png" alt="" />
 </center>
 
 就会得到一句指示：**SPIRALLY REARRANGE START FROM CENTER（从中心开始螺旋重排）**，重新回到这个wordsearch盘面，不难在中心发现**congrats**，提示我们螺旋重排的方向。在code后，我们可以得到新的wordsearch，其中第一行很明显的是新的指示：**CONGRATS LIFT YOUR SPIRITS FOR THIS FESTIVAL**，其中**spirits**在这题中指的是**神明**，参考提示七、八，我们可以找到31个神明的名字。同样地，按照其职责可以将其分为八组，每一组都以<strong>十字形（cross）</strong>环绕着中心字母，自然地提取八个字母后，我们再次面临**排序**的问题，类似上一次排序，八种职责可以对应太阳系中的八颗天体（参考希腊和罗马神话），再次按照**太阳系顺序**进行排列，我们便可得到下图中的表格：  
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/fiCsShwMRgPHmZU.png)
-![](https://s2.loli.net/2025/03/03/XygCNIJVzcRvx3f.png) 
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-9.png" alt="" />
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-10.png" alt="" /> 
 <i>图中木星对应<strong>众神之主</strong>，天王星对应<strong>天空之神</strong></i>
 </center>  
 
@@ -83,8 +83,8 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/SV4HL9FdjQiG1AK.png)  
-![](https://s2.loli.net/2025/03/03/z6TbIfWrQ7isvkD.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-11.png" alt="" />
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-12.png" alt="" />  
 <i>来自官方题解的一张图</i>
 </center>  
 
@@ -96,12 +96,12 @@ comments: true
 
 <center>
 
-![](https://s2.loli.net/2025/03/03/ylDjzh81vpnsw2W.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-13.png" alt="" />  
 <i>蔚蓝玩家特有的警觉</i>
 
-![](https://s2.loli.net/2025/03/03/BTdRG6JAC9LWHEn.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-14.png" alt="" />  
 <i>并非mitmh</i>
 
-![](https://s2.loli.net/2025/03/03/XlQ1KjDC6bsIRdf.png)  
+<img src="/img/the-festival-will-be-declared/the-festival-will-be-declared-15.png" alt="" />  
 <i>是谁只领到3.62我不说</i>
 </center> 
