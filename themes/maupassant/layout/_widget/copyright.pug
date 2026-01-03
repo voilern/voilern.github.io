@@ -1,12 +1,18 @@
 .post-copyright
   script(type='text/javascript', src=url_for(theme.js) + '/copyright.js' + '?v=' + theme.version, successtext=__('copy_success_text'))
   link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/copyright.css' + '?v=' + theme.version)
+  - var currentYear = new Date().getFullYear()
+  - var startYear = theme.post_copyright.since || currentYear
+  - var yearRange = startYear < currentYear ? (startYear + ' - ' + currentYear) : currentYear
   p
     span= __('copyright_title_prefix')
     = page.title
   p
     span= __('copyright_author_prefix')
     = theme.post_copyright.author
+  p
+    span= '© '
+    = yearRange
   p
     span= __('copyright_date_prefix')
     = page.date.format(config.date_format)

@@ -41,6 +41,10 @@
     var sidebar = document.getElementById('sidebar');
     var mediaQuery = window.matchMedia('(max-width: 48em)');
     var tocStartOffset = null;
+    var tocRect = null;
+    var tocFixed = false;
+    var STICKY_TOP = 20;
+    var TOGGLE_GAP = 0; // hysteresis to reduce flicker
 
     // 点击目录平滑滚动
     tocLinks.forEach(function(link) {
@@ -62,7 +66,12 @@
 
     function updateTocOffset() {
         if (!tocWrapper) return;
-        tocStartOffset = tocWrapper.getBoundingClientRect().top + window.pageYOffset;
+        var rect = tocWrapper.getBoundingClientRect();
+        tocStartOffset = rect.top + window.pageYOffset;
+        tocRect = {
+            width: rect.width,
+            left: rect.left
+        };
     }
 
     function updateActiveLink() {
@@ -115,22 +124,33 @@
         if (mediaQuery.matches) {
             tocWrapper.classList.remove('toc-fixed');
             tocWrapper.style.removeProperty('--toc-fixed-width');
+            tocWrapper.style.removeProperty('--toc-fixed-left');
+            tocFixed = false;
             return;
         }
 
-        var stickyTop = 20;
-        var sidebarWidth = sidebar.getBoundingClientRect().width;
-
-        if (tocStartOffset === null) {
+        if (tocStartOffset === null || tocRect === null) {
             updateTocOffset();
         }
 
-        if (window.pageYOffset >= (tocStartOffset - stickyTop)) {
+        var fixThreshold = tocStartOffset - STICKY_TOP;
+        var showThreshold = fixThreshold + TOGGLE_GAP;
+        var hideThreshold = fixThreshold - TOGGLE_GAP;
+        var shouldFix = window.pageYOffset >= showThreshold;
+        var shouldRelease = window.pageYOffset <= hideThreshold;
+
+        if (shouldFix && !tocFixed) {
             tocWrapper.classList.add('toc-fixed');
-            tocWrapper.style.setProperty('--toc-fixed-width', sidebarWidth + 'px');
-        } else {
+            if (tocRect) {
+                tocWrapper.style.setProperty('--toc-fixed-width', tocRect.width + 'px');
+                tocWrapper.style.setProperty('--toc-fixed-left', tocRect.left + 'px');
+            }
+            tocFixed = true;
+        } else if (shouldRelease && tocFixed) {
             tocWrapper.classList.remove('toc-fixed');
             tocWrapper.style.removeProperty('--toc-fixed-width');
+            tocWrapper.style.removeProperty('--toc-fixed-left');
+            tocFixed = false;
         }
     }
 

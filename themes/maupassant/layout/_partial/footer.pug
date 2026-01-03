@@ -1,6 +1,9 @@
 #footer
+  - var footerYear = new Date().getFullYear()
+  - var footerStart = theme.post_copyright && theme.post_copyright.since ? theme.post_copyright.since : footerYear
+  - var footerRange = footerStart < footerYear ? (footerStart + ' - ' + footerYear) : footerYear
   div.footer-line
-    | Copyright © 2024 - 2025 
+    | Copyright © #{footerRange} 
     a(href=url_for('.'), rel='nofollow')= config.title + '.'
   div.footer-line
     | Powered by 

@@ -2,7 +2,12 @@
   .author-info
     a.info-avatar(href='/about/', title= __('about'))
       img.nofancybox(src=theme.info.avatar)
+    if theme.info.name
+      p.info-name= theme.info.name
     p #{theme.info.discription}
     - for (var i in theme.info.outlinkitem)
-      a.info-icon(href=theme.info.outlinkitem[i].outlink, title=theme.info.outlinkitem[i].message, target='_blank', style='margin-inline:5px')  
-        i.fa(class='fa-' + theme.info.outlinkitem[i].name + '-square', style='margin-inline:5px')
+      - var item = theme.info.outlinkitem[i]
+      - var iconName = item.name
+      - var iconClass = 'fa-' + iconName
+      a.info-icon(href=item.outlink, title=item.message, target='_blank', style='margin-inline:5px')
+        i.fa(class=iconClass, style='margin-inline:5px')
