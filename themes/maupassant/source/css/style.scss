@@ -85,6 +85,8 @@ body {
 .body_container {
     padding: 0 60px;
     max-width: 1150px;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
     flex: 1 0 auto;
     display: flex;

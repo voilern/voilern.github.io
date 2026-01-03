@@ -9,13 +9,14 @@ comments: false
 
 <details>
 <summary>暂时咕咕的 write-up list</summary>
-
-- P&KU3（上）
-- 金牌解谜
-- Galactic Puzzle Hunt 2025
-- ZJUPH 2025
-- LN Hunt
-- 以及其它 hunt 可能会选部分题汇总起来写在一起
+<ul>
+  <li>P&KU3（上）</li>
+  <li>金牌解谜</li>
+  <li>Galactic Puzzle Hunt 2025</li>
+  <li>ZJUPH 2025</li>
+  <li>LN Hunt</li>
+  <li>以及其它 hunt 可能会选部分题汇总起来写在一起</li>
+</ul>
 </details>
 
 <details>
@@ -46,4 +47,5 @@ comments: false
 | [Unity Sanity - Treasure Chase](https://us-tc.top) | 2025/10 | Celestial \<Catellite> | 6 | 18 |
 | [ZJU Puzzle Hunt 2025](https://2025.zjuph.fun/home) | 2025/11 | Celestial \<Catellite> | 4 | 15 |
 | [LN Hunt](https://ln-hunt.com/) | 2025/12 | Celestial \<Catellite> | 5 | 21 |
+
 </details>
