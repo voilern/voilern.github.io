@@ -1,0 +1,370 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="voilern's blog"><title>CCBC 16 Write-up | voilern's blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script src="https://www.googletagmanager.com/gtag/js?id=G-3JVLTB2FR3" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3JVLTB2FR3');
+</script><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 8.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">CCBC 16 Write-up</h1><a id="logo" href="/.">voilern's blog</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"></i><span class="menu-text">Home</span></a><a href="/archives/"><i class="fa fa-archive"></i><span class="menu-text">Archive</span></a><a href="/about/"><i class="fa fa-user"></i><span class="menu-text">About</span></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">CCBC 16 Write-up</h1><div class="post-meta">2025-08-17<span> | </span><span class="category"><a href="/categories/Hunt-Write-up/">Hunt Write-up</a></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 8k</span><span class="post-meta-item-text"> Words</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 27</span><span class="post-meta-item-text"> Minutes</span></span></span></div><div class="post-content"><style>
+
+.kagetsu { color: #f18518; }
+.voilern { color: #ffb8c3; }
+.missile { color: #a28213; }
+.sds { color: #a449d8; }
+.RD { color: #90d056; }
+
+</style>  
+
+<center>
+
+<p>by Celestial &lt;Catellite&gt;<br>用时 74.47 h，排名 23</p>
+</center>
+
+<center>
+
+<img src="/img/ccbc16/ccbc16-1.png" alt="" />
+
+<p><span class="voilern">本队的提交时间统计图！</span> </p>
+</center>
+
+<p>Hunt网站： <a target="_blank" rel="noopener" href="https://ccbc16.cipherpuzzles.com/">CCBC 16</a>  </p>
+<h2 id="一句话总结！"><a href="#一句话总结！" class="headerlink" title="一句话总结！"></a>一句话总结！</h2><p><span class="kagetsu">Kagetsu</span>：史上最佳中文hunt。回头一看虽然完赛了但是好像也落下了很多也许很精妙但是还并没有体验到的部分，也许的确细细品味才是打开c16的正确方式，不过途中已经品味到的东西也都已经太好了，所以其实也并不会怅然若失。唉c16真是太伟大了！还想再写一些什么赞美之词但是感到自己现在已经丧失语言能力了（</p>
+<p><span class="sds">塞德莎</span>：CCBC16 神！四位大佬太强了，全程被带飞</p>
+<p><span class="voilern">voilern</span>：安眠 <span class="kagetsu">@voilern 起床</span> <span class="RD">@voilern 起床</span> 不起</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-2.png" alt="" />
+</center>
+
+<p><span class="RD">He2D</span>：解的最爽的一次ph，造纸区的设计神中神</p>
+<p><span class="missile">导弹</span>：第一次参加这么大型的ph，爽玩！（被带飞）</p>
+<h2 id="序章"><a href="#序章" class="headerlink" title="序章"></a>序章</h2><p><span class="kagetsu">Kagetsu</span>：比较常规的一个区，不过即使是一些常规小题感觉也体现了出题老师们的出题底蕴</p>
+<p><span class="sds">塞德莎</span>：由于卡在四方谜一万年所以根本不知道其他小题怎么样，至少四方谜出现在这个位置过于逆天</p>
+<h3 id="一笔画"><a href="#一笔画" class="headerlink" title="一笔画"></a>一笔画</h3><p><span class="kagetsu">Kagetsu</span>：有意思的小题</p>
+<p><span class="voilern">voilern</span>：简单小题，一笔画规则可做性并不是很高，这样作为小题出现就刚好。以及想知道在千字谜中提交了一笔画并被打回的队伍数量（</p>
+<p><span class="missile">导弹</span>：其实看不太出来，根据队友做出的前后字猜出来一个（）</p>
+<h3 id="四方谜"><a href="#四方谜" class="headerlink" title="四方谜"></a>四方谜</h3><p><span class="sds">塞德莎</span>：去年四方谜Final-Meta的CallBack，开赛前刚手动做过一遍，所以一上来主动认领了，但做着做着发现不对劲，队友题目都秒完了我才刚提取完全部图像要素，然后盯了半天就看出前三个，如下图。</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-3.png" alt="" />
+</center>
+
+<p>之后Nutri了senAnazA发现没几个人话，尝试提交了几个全错，然后就开始怀疑我前面是不是做错了，最后举白旗投降。</p>
+<p>后来是队友爆破出来了send nazo才意识到最后一个是美元，脑洞还是不够大啊。</p>
+<p><span class="voilern">voilern</span>：4s的大棋一盘.jpg 在做meta时想要小题答案，于是回来看了看，被表里和这个区格格不入的工作量吓到了，又回去翻了下一直没做过的四方谜FM解析，理解了半天解析终于看懂规则，就把差临门一脚的提取做掉了（其实不是爆的，只是思路没写在表里）。</p>
+<p><span class="kagetsu">Kagetsu</span>：莎佬一上来就认领了这题，直到我们差不多把序章全推完了回头一看这题还在卡提取TT，最后v佬来把提取过了之后发现怎么还要出题，但是meta开了所以懒得出了，于是喜提被千字谜挡在门外（</p>
+<center>
+
+<p>以下是本队的题！答案是 都</p>
+</center>
+<center>
+
+<img src="/img/ccbc16/ccbc16-4.png" alt="" />
+</center>
+
+<h3 id="小题大做"><a href="#小题大做" class="headerlink" title="小题大做"></a>小题大做</h3><p><span class="kagetsu">Kagetsu</span>：是亲切的常规小题&#x3D;w&#x3D;</p>
+<p><span class="voilern">voilern</span>：很会凑的小题，能凑到都是比较常见的答案感觉很不容易。</p>
+<p><span class="missile">导弹</span>：把题目给gpt直接把缩写都给我了（</p>
+<h3 id="五音俱全"><a href="#五音俱全" class="headerlink" title="五音俱全"></a>五音俱全</h3><p><span class="kagetsu">Kagetsu</span>：是有意思的小巧合！</p>
+<h3 id="通用机器人"><a href="#通用机器人" class="headerlink" title="通用机器人"></a>通用机器人</h3><p><span class="sds">塞德莎</span>：很标准的数据库题，由于上面四方谜卡题的时候有想过插座，所以这题一下就找到数据库了，遂秒杀。</p>
+<p><span class="kagetsu">Kagetsu</span>：没有看懂要做什么于是这题一直被剩着，莎佬卡四方谜之后来看了一下就秒了</p>
+<p><span class="voilern">voilern</span>：一开始没看懂+1，莎佬过来就秒掉了。</p>
+<h3 id="举🚩不定"><a href="#举🚩不定" class="headerlink" title="举🚩不定"></a>举🚩不定</h3><p><span class="sds">塞德莎</span>：队友扫完雷之后看了半天不会提取，最后完赛也没做完。这题通过率还蛮高的不知道是遗漏了什么思路。</p>
+<p><span class="RD">He2D</span>：上来和另一个队友直接秒了扫雷，然后一直卡到完赛的提取，神秘</p>
+<p>补：原来标题暗示了多解，大意了</p>
+<p><span class="kagetsu">Kagetsu</span>：唉没有对上标题的双解暗示，现在回过头来看还蛮有意思的</p>
+<p><span class="voilern">voilern</span>：卡meta回来发现表里有两个一模一样的做完的唯一解盘面，以为是验证过正确性的所以没多想，总觉得标题在暗示旗语但看着盘面完全不知道该怎么旗语……完赛以后才知道原来并非有唯一解，表里的第二个盘面也只是单纯替换了标记而非验证（</p>
+<p><span class="missile">导弹</span>：来做的时候队友已经做了一半了，跟着把扫雷做完了，但是提取不出来。当时想过是不是不是唯一解但是懒得做第二次了（</p>
+<h3 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h3><p><span class="kagetsu">Kagetsu</span>：简单小题</p>
+<p><span class="voilern">voilern</span>：一见闰，立刻想到闰土，一见猹，立刻想到刺猹，立刻想到鲁迅，立刻想到故乡，中国人的思维惟在这一层能够如此跃进。</p>
+<h3 id="恶魔斯基"><a href="#恶魔斯基" class="headerlink" title="恶魔斯基"></a>恶魔斯基</h3><p><span class="kagetsu">Kagetsu</span>：很好玩！</p>
+<p><span class="voilern">voilern</span>：好玩！提取也很自然：emoji名作为一个不统一的库应当是尽量避免被使用的，转而观察emoji本身的性质，提取方式就呼之欲出了。</p>
+<h3 id="相辅相成"><a href="#相辅相成" class="headerlink" title="相辅相成"></a>相辅相成</h3><p><span class="kagetsu">Kagetsu</span>：蛮好玩的小题，最喜欢 <a target="_blank" rel="noopener" href="https://scieph.com/cist">SCIE Puzzle Hunter</a> 的一集</p>
+<p><span class="voilern">voilern</span>：所以光子的网站该怎么指定某二字相同.jpg</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-5.png" alt="" />
+
+<p>教教.jpg</p>
+</center>
+
+<h3 id="当立"><a href="#当立" class="headerlink" title="当立"></a>当立</h3><p><span class="RD">He2D</span>：第一眼就看到了金盆洗手，结合ft自然想到立flag，后面就比较顺利了</p>
+<p><span class="kagetsu">Kagetsu</span>：flag很好笑，但是提取一时没想到是信号旗，属于是每次考都想不到（</p>
+<p><span class="voilern">voilern</span>：死亡flag主题好笑，以及能知道这是dropquote全靠<span class="kagetsu">Kagetsu</span>出过题。</p>
+<p><span class="missile">导弹</span>：当心立……当心立旗！</p>
+<h3 id="霓虹七色"><a href="#霓虹七色" class="headerlink" title="霓虹七色"></a>霓虹七色</h3><p><span class="sds">塞德莎</span>：搜了半天日本跟七色相关的东西，没进展就放了，完赛也没做完。</p>
+<p><span class="kagetsu">Kagetsu</span>：学习立邦。赛时只觉得颜色一定有东西但是实在不知道是什么所以没做</p>
+<h3 id="Meta-星之所在"><a href="#Meta-星之所在" class="headerlink" title="Meta - 星之所在"></a>Meta - 星之所在</h3><p><span class="sds">塞德莎</span>：很标准的meta，标题就明示了做法，所以还算比较快的找到了突破口，差了三道小题情况下也很顺利的爆破了。（实际上我全程就搜了几个恒星名字，队友都太强了）</p>
+<p><span class="RD">He2D</span>：最重要的突破口是队友靠gpt发现单词内的星名，发现了这点之后就很顺利了</p>
+<p><span class="kagetsu">Kagetsu</span>：队友做的时候正在因为不知道给四方谜出什么题而红温，最后决定不出了回来继续meta</p>
+<p><span class="voilern">voilern</span>：开meta第二时间的v某：expatriate含有ATRI（笑点解析：本应是gal玩家开玩笑的观察却与正确思路只差1个字母，并且没有意识到自己思路是对的，被meta多卡了半小时，令人忍俊不禁）之后就没下文了，还是靠GPT找到星名子串才知道该怎么做。</p>
+<p><span class="missile">导弹</span>：把小题答案丢给gpt，暗示了星，直接给看出星名子串了。</p>
+<h2 id="指南区"><a href="#指南区" class="headerlink" title="指南区"></a>指南区</h2><p><span class="kagetsu">Kagetsu</span>：疑似本次最卡的一个区，不会做的很多TT</p>
+<p><span class="sds">塞德莎</span>：序章后的第一个区，说实话有点开幕雷击，前排的题目不少都挺难。整体算是一个很标准的puzzle hunt区，没整什么大活。</p>
+<p><span class="RD">He2D</span>：序章整体还算简单，马上接的指南区开的前几题水温一下就上来了</p>
+<p><span class="voilern">voilern</span>：4s发力了.jpg 一度卡到怀疑人生。</p>
+<h3 id="浮想联翩"><a href="#浮想联翩" class="headerlink" title="浮想联翩"></a>浮想联翩</h3><p><span class="sds">塞德莎</span>：非常好玩的一道题，后半程参战，中途填出xj的时候严重怀疑制作组是不是脑子出问题了（不是）。帮忙把剩下的空几乎都填完了，提供了正确的提取思路，但很可惜没找到鲁迅的小杂谈名言，痛失3000。</p>
+<p><span class="RD">He2D</span>：前半程提供了很多节点，没参与提取，关于这题只想说，网页卡卡卡卡卡</p>
+<p><span class="kagetsu">Kagetsu</span>：开节点的过程有一种像在神游的美，做着做着语音里传来了安稳的呼吸声。最后不知道怎么提取，一直以为是和最短路有关，试了半天也不懂，直到第二天起床开了提示才过的</p>
+<p><span class="voilern">voilern</span>：凌晨一点开提示发现第一空是“你的名字。”太好笑了。之后就是愉快的团建时间，大概填到两点时语音里传来了令人安心的呼吸声。虽然先填出来了鲁迅，而且中途对着全裸体性交这些词笑R18hunt，但是丝毫没有想到迅哥的经典！一见到鲁迅，想不到白臂膊，想不到全裸体，想不到性交，pher的思维惟在这一层能够如此迟钝。</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-6.png" alt="" />
+
+<img src="/img/ccbc16/ccbc16-7.png" alt="" />
+
+<p>还有图论大师</p>
+</center>
+
+<h3 id="●■★▲"><a href="#●■★▲" class="headerlink" title="●■★▲"></a>●■★▲</h3><p><span class="kagetsu">Kagetsu</span>：太抽象啦！赛时没有看出任何小题的做法</p>
+<p><span class="voilern">voilern</span>：被抽象题面和低通过率劝退了，完赛后看莎佬做发现其实就是meta-match，尽管有些小问题（图形+小题答案的顺序不一致、提取的表示方式有些清奇），但是是瑕不掩瑜的好题！</p>
+<h3 id="三星Galaxy"><a href="#三星Galaxy" class="headerlink" title="三星Galaxy"></a>三星Galaxy</h3><p><span class="sds">塞德莎</span>：比较简单的星战+星系纸笔，找到正确推理方法后很快就做完了，但之后提取还得是靠队友，谁能看出来是提取公共边界线啊，而且还是韩语。</p>
+<p><span class="kagetsu">Kagetsu</span>：纸笔还得看莎佬！韩语答案比较出乎意料</p>
+<p><span class="voilern">voilern</span>：莎佬做纸笔tql！</p>
+<h3 id="你想Roll出怎样的比赛"><a href="#你想Roll出怎样的比赛" class="headerlink" title="你想Roll出怎样的比赛"></a>你想Roll出怎样的比赛</h3><p><span class="RD">He2D</span>：这概率手算不了一点，丢给ai（</p>
+<p><span class="kagetsu">Kagetsu</span>：ai王朝了</p>
+<p><span class="voilern">voilern</span>：ai王朝了</p>
+<p><span class="missile">导弹</span>：ai王朝了</p>
+<h3 id="Link-It-All"><a href="#Link-It-All" class="headerlink" title="Link It All"></a>Link It All</h3><p><span class="sds">塞德莎</span>：全程参与，帮忙填了不少空，发现了拼图的机制并完成了其中5个，得知提取方式竟是希卡文的时候非常惊叹。</p>
+<p><span class="kagetsu">Kagetsu</span>：赞美网站交互</p>
+<p><span class="RD">He2D</span>：赞美网站交互</p>
+<p><span class="voilern">voilern</span>：做了一些填空的苦力活，之后就被莎佬做完了，没能早点意识到希卡文有点塞尔达玩家失格了（</p>
+<h3 id="就是为了这点醋"><a href="#就是为了这点醋" class="headerlink" title="就是为了这点醋"></a>就是为了这点醋</h3><p><span class="sds">塞德莎</span>：研究了几乎两小时，零进展，完赛了也没做出来，不愧是叶题。</p>
+<p><span class="RD">He2D</span>：看不懂，根本看不懂</p>
+<p><span class="kagetsu">Kagetsu</span>：感觉是什么很妙的东西但是奈何完全看不出来，最后只能无奈放弃</p>
+<p><span class="voilern">voilern</span>：上来气势汹汹地分了几类之后就卡死了，开了脱口而出的提示发现不是人话，于是在赛时完全放弃了这题。赛后补题发现其实又是meta-match，不过选脱口而出作为入手点比较劝退）最后的提取很有巧合感，喜欢。</p>
+<h3 id="周而复始"><a href="#周而复始" class="headerlink" title="周而复始"></a>周而复始</h3><p><span class="kagetsu">Kagetsu</span>：似乎由于赛时看到这题的低通过率，我们没有任何人动过这道题（</p>
+<p><span class="voilern">voilern</span>：打印之后就没动过。赛后知道这个是一直没学会折法的翻翻乐很惊喜，被唤起了很久远的童年记忆，也为我打印之后不会折感到释然（</p>
+<h3 id="复习资料"><a href="#复习资料" class="headerlink" title="复习资料"></a>复习资料</h3><p><span class="sds">塞德莎</span>：根据队友穷举出来的答案叮出了数学和语文的提取方式，之后只帮忙做了点苦力。答案首字母是元素真的一点都没看出来，还是太不敏感了。</p>
+<p><span class="RD">He2D</span>：懂不懂开提示看到120+的那一刻的救赎（</p>
+<p><span class="kagetsu">Kagetsu</span>：由于没做出语文导致题面一直只有第一行所以一直以为就是只有一行，但是发现了后面都是合法题号于是一直在对着空气穷举后面的答案，开提示让我们往后“做”到120+题的时候感觉大脑宕机了</p>
+<p><span class="voilern">voilern</span>：被第一行卡了过久导致做题体验大幅下降，虽然觉得小题无聊且数量过多，但元素周期表在这题似乎没有其它好的表现形式（</p>
+<p><span class="missile">导弹</span>：语文没看出来导致一直穷举，结果发现好多穷举过的居然其实是六七十题那块的答案</p>
+<h3 id="笑点解析"><a href="#笑点解析" class="headerlink" title="笑点解析"></a>笑点解析</h3><p><span class="sds">塞德莎</span>：因为这题看了一堆沈阳美食家的低创视频，感觉要陪我精神损失费（</p>
+<p><span class="RD">He2D</span>：某个首先提出找沈阳美食家评论，并害人看低创视频的人路过（</p>
+<p><span class="kagetsu">Kagetsu</span>：你的苏联笑话很好，但是感觉不太喜欢出成这种像是纯数据库题的形式，做的时候有种莫名的违和感（</p>
+<p><span class="missile">导弹</span>：睡了一觉起来发现是苏联笑话，不会搜只好百度大海捞针</p>
+<h3 id="打卡"><a href="#打卡" class="headerlink" title="打卡"></a>打卡</h3><p><span class="kagetsu">Kagetsu</span>：在不断的卡题的过程中出现了一道秒题的感觉很爽（</p>
+<p><span class="voilern">voilern</span>：圣经朗诵：我知道这很学院派，可一行超过 80 个字符的代码还是让我抓狂。我也在网上见过不少人认为即使在现代的视网膜屏幕下也应当采用行长度为 80 个字符的标准，可他们都不理解我对破坏这一标准的怒火，就算多 1 个字符也不行。总之愉快地秒了。</p>
+<h3 id="高楼大厦"><a href="#高楼大厦" class="headerlink" title="高楼大厦"></a>高楼大厦</h3><p><span class="sds">塞德莎</span>：以为是道小题，没想到是道陷阱题，等距视错觉nb。</p>
+<p><span class="RD">He2D</span>：以为能秒杀，结果这道题水很深。后来我标注了大部分的方块，看的我眼睛瞎了头要晕了</p>
+<p><span class="kagetsu">Kagetsu</span>：本来以为是简单小题但是感觉卡了一辈子，不熟拉丁方导致的</p>
+<p><span class="voilern">voilern</span>：是7x7拉丁方吗</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-8.png" alt="" />
+
+<p>是 7x7 拉丁方吗</p>
+<img src="/img/ccbc16/ccbc16-9.png" alt="" />
+</center>
+
+<h3 id="一位参赛者……"><a href="#一位参赛者……" class="headerlink" title="一位参赛者……"></a>一位参赛者……</h3><p><span class="sds">塞德莎</span>：一位参赛者做了过多的谜题，这是他大脑发生的变化。</p>
+<p><span class="RD">He2D</span>：一位参赛者搜了很多小哥的视频，这是他眼睛发生的变化。</p>
+<p><span class="kagetsu">Kagetsu</span>：一位参赛者在ccbc16惊喜地发现有chubbyemu题后面忘了</p>
+<p><span class="voilern">voilern</span>：一位参赛者在评论区发现了题目的做法（并非琵琶，是对于小哥视频内容共性，即大多是高血钠&#x2F;钾症的评论），后面忘了。感觉是本届为数不多平淡的题目。</p>
+<h3 id="Meta-指南"><a href="#Meta-指南" class="headerlink" title="Meta - 指南"></a>Meta - 指南</h3><p><span class="sds">塞德莎</span>：几乎没参与，只知道拼起来之后要折东南西北，这东西我都忘了怎么折了。</p>
+<p><span class="RD">He2D</span>：几乎没参与，晚上拼了个图然后一觉醒来就被解了</p>
+<p><span class="kagetsu">Kagetsu</span>：这个meta很酷！但是折东南西北真的完全想不到</p>
+<p><span class="voilern">voilern</span>：神题，非常喜欢！尽管折东南西北提示不足，但完全不影响折出来之后的惊喜！对于三语答案的运用十分深刻，也很好地利用到了东南西北本身的性质。但对东南西北的玩法并没有过多涉及，说到底这东西自由度还是过低了，并且规则也不明确，很多指令（例如东8次、东2次等等）是完全等效的，现在这样已经非常好了。</p>
+<h2 id="印刷区"><a href="#印刷区" class="headerlink" title="印刷区"></a>印刷区</h2><p><span class="kagetsu">Kagetsu</span>：这个区的概念很有意思！令人想起了jl的去掉30个答案的某个puremeta</p>
+<p><span class="sds">塞德莎</span>：整体结构有点新意的一个区，但我的印象就只有逆天纸笔氏毛米页了。</p>
+<p><span class="voilern">voilern</span>：主题很有想法的区，题都非常有水平，但是缺信息总是不好做的，感觉适合欣赏。</p>
+<h3 id="图寻"><a href="#图寻" class="headerlink" title="图寻"></a>图寻</h3><p><span class="sds">塞德莎</span>：队长看出来是清明上河图之后就来叠图了，一开始是对的维基百科上的清明上河图，怎么都对不上，后来找到了另一个版本分辨率刚刚好，就确定了思路。对完之后提取卡了一会，没想到是提取拼音。</p>
+<p><span class="RD">He2D</span>：本来我已经放弃思考这题了，突然队长：注意到长宽比接近清明上河图</p>
+<p><span class="kagetsu">Kagetsu</span>：清明上河图好，就是多版本长宽比不能完美对上略诡异</p>
+<p><span class="voilern">voilern</span>：清明上河图好好好，很精髓的观察题，以及提取是按照古卷阅读顺序很加分！</p>
+<p><span class="missile">导弹</span>：队长注意力大爆发！</p>
+<h3 id="烫烫烫"><a href="#烫烫烫" class="headerlink" title="烫烫烫"></a>烫烫烫</h3><p><span class="sds">塞德莎</span>：基于乱码出的题，还是挺好玩的。帮忙解析了乱码构成，之后跟队友合力一块做出了这题，比较顺利。</p>
+<p><span class="RD">He2D</span>：团建解的，整体还算顺利。</p>
+<p><span class="kagetsu">Kagetsu</span>：告诉了队友找乱码的方法，后面小题就基本都是队友做的了&#x3D;w&#x3D;</p>
+<p><span class="missile">导弹</span>：和队友一起找乱码</p>
+<h3 id="五谷丰登"><a href="#五谷丰登" class="headerlink" title="五谷丰登"></a>五谷丰登</h3><p><span class="sds">塞德莎</span>：第一次看到这题一度以为是藏题了，毕竟已经有几个队伍提交了答案，但是F12研究了好久一点进展都没有。Meta之后才意识到这题就是没有内容，只有标题。敢这么出题也是挺大胆的。</p>
+<p><span class="RD">He2D</span>：一眼发现这题（包括后面几题）的url比较特殊，基于url试了很久但都没进展，等meta做完回来才发现这是故意的</p>
+<p><span class="kagetsu">Kagetsu</span>：确实一开始以为是假空白题，但是实在是找不到哪里有题（</p>
+<p><span class="voilern">voilern</span>：被4s设计了.jpg 以及我手怎么自己去牌堆摸牌了（</p>
+<h3 id="五彩斑斓的无字天书"><a href="#五彩斑斓的无字天书" class="headerlink" title="五彩斑斓的无字天书"></a>五彩斑斓的无字天书</h3><p><span class="sds">塞德莎</span>：当时在痛苦的做纸笔，只听得队友做这题都在哈哈大笑，我好痛苦（</p>
+<p><span class="RD">He2D</span>：↑太好玩了，还贡献了一万个fun stuff，错过了一个亿（</p>
+<p><span class="voilern">voilern</span>：团建题好，以及再次感叹这题的可做性，做得十分欢乐。</p>
+<p><span class="kagetsu">Kagetsu</span>：意外地可做性极高，并且非常有趣，真是太会出题了！以下是一些fun stuff</p>
+<p><span class="missile">导弹</span>：太好玩了，俗语储备量比自己想象中高</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-10.png" alt="" />
+
+<img src="/img/ccbc16/ccbc16-11.png" alt="" />
+
+<img src="/img/ccbc16/ccbc16-12.png" alt="" />
+</center>
+
+<h3 id="只说明书"><a href="#只说明书" class="headerlink" title="只说明书"></a>只说明书</h3><p><span class="RD">He2D</span>：本来在做这题，做一半被队友喊去填无字天书，填完后继续回来做这题，勉强做出三个半小题但是看不懂提取，等第二天早上发现已经被反爆了，白忙活（</p>
+<p><span class="kagetsu">Kagetsu</span>：唉说明书。赛时觉得有点麻烦没咋看，回头看看感觉很多小题都很酷！</p>
+<p><span class="voilern">voilern</span>：赛后看莎佬补了，很神的题，但是赛时并没有动力做缺信息说明书……</p>
+<h3 id="氏毛米页"><a href="#氏毛米页" class="headerlink" title="氏毛米页"></a>氏毛米页</h3><p><span class="sds">塞德莎</span>：全程最痛苦题，我一人单刷了整整六个小时才把纸笔部分全部做完，前面5题花了一个半小时纯手做，直到第6题Pentominous手做卡了接近三个小时，后来还是找了个solver才穷举出来。有了solver后第7题就直接秒了，第8题没有solver依然是手做，但这题出得非常好，逻辑通畅，第9题复习了一下Heyawake的penalty理论后也很快做完。最后的拼词由于没注意到边框信息，开了提示得知了题板大小后就不难了。</p>
+<p><span class="RD">He2D</span>：sds单杀，太强大了，但是强大是有代价的（</p>
+<p><span class="kagetsu">Kagetsu</span>：这就是纸笔给莎佬做的安心感.jpg</p>
+<p><span class="voilern">voilern</span>：这就是纸笔给莎佬做的安心感.jpg</p>
+<p><span class="missile">导弹</span>：这就是纸笔给莎佬做的安心感.jpg</p>
+<h3 id="先有鸡还是先有蛋"><a href="#先有鸡还是先有蛋" class="headerlink" title="先有鸡还是先有蛋"></a>先有鸡还是先有蛋</h3><p><span class="kagetsu">Kagetsu</span>：<span class="missile">导弹</span>佬单杀，最后偷了一下提取</p>
+<p><span class="missile">导弹</span>：比想象中可做，但是一笔画一直画不出来，靠另外的条件连猜带推还是凑出来了（</p>
+<h3 id="只剩提取"><a href="#只剩提取" class="headerlink" title="只剩提取"></a>只剩提取</h3><p><span class="sds">塞德莎</span>：前面跟队友愉快刷题，到倒数第二行直接歇逼，完赛依然只剩提取。</p>
+<p><span class="kagetsu">Kagetsu</span>：fm只剩提取的时候只剩提取只剩提取</p>
+<p><span class="RD">He2D</span>：解题过程最符合标题的一集</p>
+<p><span class="voilern">voilern</span>：模拟一下提交 312 312 312 僵尸 小黄脸大笑.jpg</p>
+<h3 id="【其它那些没有内容的题】"><a href="#【其它那些没有内容的题】" class="headerlink" title="【其它那些没有内容的题】"></a>【其它那些没有内容的题】</h3><p><span class="kagetsu">Kagetsu</span>：反爆爽！但是本身这些题目就是知道meta信息后才可做所以其实是正爆……？</p>
+<h3 id="Meta-印刷"><a href="#Meta-印刷" class="headerlink" title="Meta - 印刷"></a>Meta - 印刷</h3><p><span class="sds">塞德莎</span>：不是很难的meta，对着常用序列集合找一下就做完了，队长直接秒之。完赛了依然不清楚印刷区下面一堆空框是做什么。</p>
+<p>顺便这个区可能是我见过的反爆最爽的区了，除了只剩提取剩下的都给反爆了。</p>
+<p><span class="RD">He2D</span>：被说明书薄纱之后含泪睡觉，早上醒来发现meta连着一片题全被爆了。</p>
+<p><span class="kagetsu">Kagetsu</span>：简单meta，过于纯良令人泪目</p>
+<h2 id="火药区"><a href="#火药区" class="headerlink" title="火药区"></a>火药区</h2><p><span class="RD">He2D</span>：集中做这区的那天，我白天有事没有参与，到晚上才加入战斗，所以整个这一区参与度比较低，有点可惜。</p>
+<p><span class="kagetsu">Kagetsu</span>：仍然是十分有趣的概念！c16的机制怎么都这么好</p>
+<p><span class="sds">塞德莎</span>：整体结构非常有意思，题目宽度也很大，不过我的参与度有点低，没体会到精髓可惜了。</p>
+<h3 id="五色方圆"><a href="#五色方圆" class="headerlink" title="五色方圆"></a>五色方圆</h3><p><span class="kagetsu">Kagetsu</span>：在拼好图之前什么看不懂，一拼好就突然完全看懂了，很有惊喜感（</p>
+<h3 id="代入演算"><a href="#代入演算" class="headerlink" title="代入演算"></a>代入演算</h3><p><span class="kagetsu">Kagetsu</span>：之前只简单接触过λ演算，开了这题之后又研究了半天还是无法理解，唉7k+老师还是太硬核了，什么这居然是叶题</p>
+<p><span class="voilern">voilern</span>：恐怖7k+题，什么这居然是叶题</p>
+<h3 id="淡黄又蓬松"><a href="#淡黄又蓬松" class="headerlink" title="淡黄又蓬松"></a>淡黄又蓬松</h3><p><span class="kagetsu">Kagetsu</span>：这乐趣好比赢钱</p>
+<h3 id="柏拉图式相爱"><a href="#柏拉图式相爱" class="headerlink" title="柏拉图式相爱"></a>柏拉图式相爱</h3><p><span class="RD">He2D</span>：队友找齐碎片后我负责了关键步骤，整体思路还算清晰，但是最后提取找对面找错了，还因此开了个没用的提示，背锅（</p>
+<p><span class="kagetsu">Kagetsu</span>：rd强</p>
+<p><span class="voilern">voilern</span>：过来看了下提取发现对面对错了，最后三个人对着正十二面体标数字（</p>
+<h3 id="？？？式相爱"><a href="#？？？式相爱" class="headerlink" title="？？？式相爱"></a>？？？式相爱</h3><p><span class="RD">He2D</span>：看到20后顺着上一题的思路想到了正二十面体，但实在没想到条件用做顶点和棱</p>
+<p><span class="kagetsu">Kagetsu</span>：并没有想到怎么做正二十面体，赛中温姐突然发错了把这题拼好后的文件发我们群里了，但是我们诚实地没有打开看（</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-13.png" alt="" />
+</center>
+
+<p><span class="voilern">voilern</span>：我有Blender，让我看看.jpg</p>
+<h3 id="汉字方阵·后半"><a href="#汉字方阵·后半" class="headerlink" title="汉字方阵·后半"></a>汉字方阵·后半</h3><p><span class="kagetsu">Kagetsu</span>：太会凑了。最后想u3 ui4 iao3 ian4 和u1 ei2 ai1 e4 ui4 u3 i4 ong4 e2 o2 ian2 eng2的时候卡了半天，感觉自己有点丧失中文能力.jpg</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-14.png" alt="" />
+</center>
+
+<p><span class="voilern">voilern</span>：太会凑了，不过最后从韵母反推汉字卡壳有些难受（</p>
+<p><span class="missile">导弹</span>：u ui iao ian？赌对导弹？以及苏维埃想破头</p>
+<h3 id="原来你也是厨神"><a href="#原来你也是厨神" class="headerlink" title="原来你也是厨神"></a>原来你也是厨神</h3><p><span class="sds">塞德莎</span>：搜这题资料的时候看饿了，点了一份肯德基全家桶。</p>
+<p><span class="RD">He2D</span>：全队疑似只有我玩原神，当时白天我有事没来参与，队友卡了一下午提取，晚上回来我一眼秒了，我说都给我去玩原神（</p>
+<p><span class="kagetsu">Kagetsu</span>：谁说ccbc16不让人受伤的，我的队友都被煮熟了</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-15.png" alt="" />
+</center>
+
+<p><span class="voilern">voilern</span>：以为标题是纯玩梗，没往原神上去想，开了提示发现又是思路全对但没做的。之后靠早年的原神经验很顺利地搜完了所有clue，但是由于角色名敏感度不高卡在提取了！以及疑似大家在搜这题数据库时都搜到了同一个文档，偶遇了反卷成员，确实是“异世相遇，尽享美味”（</p>
+<h3 id="福尔摩斯探案集"><a href="#福尔摩斯探案集" class="headerlink" title="福尔摩斯探案集"></a>福尔摩斯探案集</h3><p><span class="kagetsu">Kagetsu</span>：比较有洋hunt感的一题，但是由于词汇量不足没第一时间猜到做法</p>
+<center>
+
+<img src="/img/ccbc16/ccbc16-16.png" alt="" />
+</center>
+
+<h3 id="元元元……元谜题"><a href="#元元元……元谜题" class="headerlink" title="元元元……元谜题"></a>元元元……元谜题</h3><p><span class="sds">塞德莎</span>：由于本区Meta迟迟不解锁，被迫接手了这题，开了好几个提示才顺利做完。这题更让我惊讶的是队友的GPT居然超快且毫无错误的算出了一串置换的结果，GPT已经有如此强的数学能力了吗。</p>
+<p><span class="kagetsu">Kagetsu</span>：这题凑的有点牛的</p>
+<p><span class="voilern">voilern</span>：炫技炫我一脸</p>
+<h3 id="Galileo’s-Escapement-Room"><a href="#Galileo’s-Escapement-Room" class="headerlink" title="Galileo’s Escapement Room"></a>Galileo’s Escapement Room</h3><p><span class="sds">塞德莎</span>：做完上一区痛苦纸笔后来接手的这题，在ph里面见到这种仿锈湖风格的密室逃脱还蛮新奇的。密室部分基本没有啥难点，但最后突然一转计算Vononoi图的生成点时我两眼一黑，遂打开python欲尝试编程解决。但遇到了一个没想到的难点：如何精确识别图的边框所在直线。经过一个小时的奋战，解决了这个问题后，下一个难点接踵而至：如何减少线性方程求解误差。由于原图边框特别粗，因此偏差极大，大到根本看不出来我要提取什么，经过两个小时的调参和修bug，最终还是放弃。之后还是肉眼叮出了需要提取内容才过的，感觉这段编程时间完全被浪费了。</p>
+<p><span class="kagetsu">Kagetsu</span>：神中神！还能说什么呢，这就是4s在c16上倾注的心血的体现。如此浪漫的小游戏只是这个hunt中的一个小题，实在是令人惊叹，十分感动。</p>
+<h3 id="Meta-火药"><a href="#Meta-火药" class="headerlink" title="Meta - 火药"></a>Meta - 火药</h3><p><span class="sds">塞德莎</span>：很帅的Meta，结构比较新奇。队长很快的意识到是焰色反应，但尝试了很多种提取方式都无果。后来我发现本区每个小题碎片数量&#x3D;小题答案长度÷2，受此启发非常顺利的做完了整个Meta，极其舒畅。</p>
+<p><span class="RD">He2D</span>：这一区和meta的结构令人眼前一亮，不过关键思路都是队友提出的，我就干了点苦力活，以及最后的爆破。</p>
+<p><span class="kagetsu">Kagetsu</span>：出的真好</p>
+<p><span class="voilern">voilern</span>：瞪了电报码，感觉焰色反应并不是一个适合出题的库。</p>
+<h2 id="造纸区"><a href="#造纸区" class="headerlink" title="造纸区"></a>造纸区</h2><p><span class="kagetsu">Kagetsu</span>：打hunt以来做过的最神的一个区，感觉已经进入化境了，也许以后也很难再有超越的了。我大概一辈子也忘不了造纸了.jpg</p>
+<p><span class="sds">塞德莎</span>：怎么会有这么好玩的区，太好玩了以后多出点吧，我什么解谜都会做的.jpg</p>
+<p><span class="voilern">voilern</span>：放飞自我的机制区，但是太好玩了，落叶子老师请再多出点吧ww</p>
+<p><span class="missile">导弹</span>：神！</p>
+<h3 id="叶子戏"><a href="#叶子戏" class="headerlink" title="叶子戏"></a>叶子戏</h3><p><span class="sds">塞德莎</span>：队友的脑洞怎么都这么强，我就做出来两道题呜呜。</p>
+<p><span class="RD">He2D</span>：纯纯的电波，纯纯的脑洞（</p>
+<p><span class="kagetsu">Kagetsu</span>：日谜爽！虽然有一部分比一般的日谜还要电波x 鱼牌还没玩完又做了一套叶牌，玩解谜的太幸福了</p>
+<p><span class="voilern">voilern</span>：叶牌爽！大概做了1&#x2F;4，太好玩了！</p>
+<p><span class="missile">导弹</span>：一上来都去三字谜了没人做这个，望着一堆扑克牌不知所措不知道填什么，当发现一个李白之后：这诗人啊！真的很有意思（</p>
+<h3 id="三字谜"><a href="#三字谜" class="headerlink" title="三字谜"></a>三字谜</h3><p><span class="sds">塞德莎</span>：背锅位，穷举找 一字谜 三字谜 的时候，很凑巧 跳过了 唯一的 正确解，还成功 带跑偏 我队友，以至于 队友也 未穷举 找到解。解成就：落叶子 血压飙，遂言语 攻击我。</p>
+<p><span class="RD">四大洋</span>：↑想说的 全如上↑</p>
+<p><span class="kagetsu">かげつ</span>：神中神 自认为 c16 最佳题 游戏好 机制好 巧合好 团建好 这我能 免费玩？</p>
+<p><span class="voilern">唯O零</span>：叶子戏 卡小题 闲来逛 三字谜 偶然遇 西红水 填入三 竟正确 又看到 日三秋 填入一 又正确 〇横字 被解放 〇字谜 终通关</p>
+<p><span class="missile">导弹汪</span>：穷举找 找半天 居然是 跳过了 撑不住 遂睡觉</p>
+<h3 id="2025年度解谜能力测试"><a href="#2025年度解谜能力测试" class="headerlink" title="2025年度解谜能力测试"></a>2025年度解谜能力测试</h3><p><span class="sds">塞德莎</span>：一上来队友咔咔秒题把我吓到了，我就只好捡漏做他们剩下的难题了，还是帮忙做出来不少的，至少证明了我不是摆件。</p>
+<p><span class="RD">He2D</span>：团建题中也带点脑洞，点名要找考前阅读须知和用标题的两个小题（</p>
+<p><span class="kagetsu">Kagetsu</span>：谜检太好了，内部一些环环相扣的设计更是让这题上升到了新的境界</p>
+<p><span class="voilern">voilern</span>：秒了一些简单小题就去睡觉了，可惜没赶上大部分设计。</p>
+<p><span class="missile">导弹</span>：因为睡太早错过了这题的绝大部分，第二天早上起来纠了几个错误答案发现最后一题的提取，然后队长就秒了</p>
+<h3 id="你说话带括号"><a href="#你说话带括号" class="headerlink" title="你说话带括号"></a>你说话带括号</h3><p><span class="sds">塞德莎</span>：Lingo2中文MOD，但我没做到这题，好气！队友秒这题的时候我在做隔壁元元元……元谜题，几乎没参与，等之后我一定要单人重刷这些题。</p>
+<p><span class="RD">He2D</span>：爽爽爽</p>
+<p><span class="kagetsu">Kagetsu</span>：中文lingo太好了，玩得很开心</p>
+<p><span class="voilern">voilern</span>：括号爽！团建中文lingo太好了！</p>
+<p><span class="missile">导弹</span>：爽爽爽！</p>
+<h3 id="千字谜"><a href="#千字谜" class="headerlink" title="千字谜"></a>千字谜</h3><p><span class="sds">塞德莎</span>：出题组懒得出题了，遂让选手帮忙出一千道题（不是）。知道了机制之后其实做起来还是挺顺畅的，并不需要品鉴美屎。</p>
+<p><span class="RD">He2D</span>：会员制餐厅品尝美味（</p>
+<p><span class="kagetsu">Kagetsu</span>：这下知道为什么四方谜是开门题了，让选手凑出成百上千个小题的idea比较艺术</p>
+<p><span class="voilern">voilern</span>：这题的表现形式使得艺术性拉满了，非常喜欢这个点子！品鉴了几十道小题后突然意识到了千字文和这题的关系，不过大家好像做到meta需要的字以后就跑路了，就留下我一个在做一些神秘排序做到天昏地暗最终错过meta团建（</p>
+<h3 id="Meta-造纸"><a href="#Meta-造纸" class="headerlink" title="Meta - 造纸"></a>Meta - 造纸</h3><p><span class="sds">塞德莎</span>：非常好机制综合Meta，与队友团建真的太爽啦。</p>
+<p><span class="RD">He2D</span>：团建好玩，整个这一区都是爽爽团建</p>
+<p><span class="kagetsu">Kagetsu</span>：唉太好。这个区怎么这么好啊</p>
+<p><span class="missile">导弹</span>：真神了，之前一直说文化造纸，寻回文化造纸这个答案一出真的觉得，怎么这么好</p>
+<h2 id="终章"><a href="#终章" class="headerlink" title="终章"></a>终章</h2><h3 id="指南树"><a href="#指南树" class="headerlink" title="指南树"></a>指南树</h3><p><span class="sds">塞德莎</span>：很好玩的一道隐形数桥+折纸题，帮忙分析了一下题面结构。最后的提取是真的看不出来，开提示了。</p>
+<p><span class="RD">He2D</span>：拥有打印机之力的我是不会输的（就是a4还是太硬了，这个折痕比较反常规，差点把纸给折烂。</p>
+<p><span class="kagetsu">Kagetsu</span>：太会写文本了！呈现极其自然</p>
+<p><span class="voilern">voilern</span>：折纸贯穿整个hunt，很喜欢。</p>
+<h3 id="印刷树"><a href="#印刷树" class="headerlink" title="印刷树"></a>印刷树</h3><p><span class="kagetsu">Kagetsu</span>：开了墨水五色提示之后就一路畅通了，瞬间闪出棋盘提取很爽，弥补了fdu五行棋没闪出来的遗憾</p>
+<p><span class="voilern">voilern</span>：秒了很爽。</p>
+<h3 id="火药树"><a href="#火药树" class="headerlink" title="火药树"></a>火药树</h3><p><span class="sds">塞德莎</span>：因为没有发现字典序排序，导致颜色分配错误，卡了提取半个多小时。</p>
+<p><span class="RD">He2D</span>：队友做这题的时候我在研究拼字机制，没参与到</p>
+<p><span class="kagetsu">Kagetsu</span>：没有发现字典序导致lips气得发绿了</p>
+<p><span class="voilern">voilern</span>：笑点解析：iron rust &#x3D; 红色 lips &#x3D; 橙色，但我依然坚持iron rust红色论。</p>
+<p><span class="missile">导弹</span>：红嘴唇？橙嘴唇？气得发紫绿嘴唇！</p>
+<h3 id="造纸树"><a href="#造纸树" class="headerlink" title="造纸树"></a>造纸树</h3><p><span class="RD">He2D</span>：#查询你的文化造纸</p>
+<p><span class="kagetsu">Kagetsu</span>：似乎被silph的broken mirrors撞了，但我觉得中文回文更好玩！</p>
+<p><span class="voilern">voilern</span>：感觉这样写中文回文clue并不是最优解，不过也挺好玩！</p>
+<h3 id="Final-Meta-最后的谜题"><a href="#Final-Meta-最后的谜题" class="headerlink" title="Final Meta - 最后的谜题"></a>Final Meta - 最后的谜题</h3><p><span class="sds">塞德莎</span>：前面拼字机制还蛮好摸索的，但是最后的提取是真的没看出来，想到了要找4x4的东西，但是没想到居然藏在了比赛LOGO里面。队长通灵直接爆出了答案十分帅气！成功做到了零提示Final Meta完赛。</p>
+<p><span class="RD">He2D</span>：面板拼好后，队长很快就通灵出了最终答案，但是因为实在是缺乏依据没人敢填，导致卡了很久提取，直到最后队长自己试了下答案。</p>
+<p><span class="kagetsu">Kagetsu</span>：一上来就注意到这些字很像书中自有黄金屋但是还是慢慢做了，等把规律找完，盘面填完，大家都不知道怎么提取的时候试着爆了一下结果一次就过了，现在想来也许这才是正确的选择，就算早几个小时完赛，但是少了做fm这一题的乐趣，那又有什么意义呢（x</p>
+<p><span class="voilern">voilern</span>：环境谜题说是，没想到开赛前被群友们研究过很多遍的logo用在这里了。以及发现多一个人似乎并没有什么帮助所以队友们做这题时已经开始偷偷摸鱼了（x</p>
+<p><span class="missile">导弹</span>：完全没在意过logo，本来等开提示，结果被队长对上电波了，以及因为算错题目数量，一直以为这是倒数第二题</p>
+</div><div class="tags"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hunt/" rel="tag">Hunt</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Write-up/" rel="tag">Write-up</a></li></ul></div><div class="post-nav"><a class="pre" href="/posts/silph-2025/">Silph Puzzle Hunt 2025 Write-up</a><a class="next" href="/posts/sjtu-campus-hunt-2025/">第九届上海交通大学校园寻宝 Write-up</a></div><div id="comments"><script src="https://giscus.app/client.js" data-repo="voilern/voilern.github.io" data-repo-id="R_kgDONaGOgQ" data-category="Announcements" data-category-id="DIC_kwDONaGOgc4CoLv9" data-mapping="pathname" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async></script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget toc-wrapper"><div class="widget-title"><i class="fa fa-list"></i><span class="widget-title-text">Contents</span></div><div class="toc-article" id="toc-sidebar"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%80%BB%E7%BB%93%EF%BC%81"><span class="toc-number">1.</span> <span class="toc-text">一句话总结！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%8F%E7%AB%A0"><span class="toc-number">2.</span> <span class="toc-text">序章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E7%AC%94%E7%94%BB"><span class="toc-number">2.1.</span> <span class="toc-text">一笔画</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E6%96%B9%E8%B0%9C"><span class="toc-number">2.2.</span> <span class="toc-text">四方谜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E9%A2%98%E5%A4%A7%E5%81%9A"><span class="toc-number">2.3.</span> <span class="toc-text">小题大做</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E9%9F%B3%E4%BF%B1%E5%85%A8"><span class="toc-number">2.4.</span> <span class="toc-text">五音俱全</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E7%94%A8%E6%9C%BA%E5%99%A8%E4%BA%BA"><span class="toc-number">2.5.</span> <span class="toc-text">通用机器人</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BE%F0%9F%9A%A9%E4%B8%8D%E5%AE%9A"><span class="toc-number">2.6.</span> <span class="toc-text">举🚩不定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E5%AD%97"><span class="toc-number">2.7.</span> <span class="toc-text">数字</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%81%B6%E9%AD%94%E6%96%AF%E5%9F%BA"><span class="toc-number">2.8.</span> <span class="toc-text">恶魔斯基</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E8%BE%85%E7%9B%B8%E6%88%90"><span class="toc-number">2.9.</span> <span class="toc-text">相辅相成</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BD%93%E7%AB%8B"><span class="toc-number">2.10.</span> <span class="toc-text">当立</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9C%93%E8%99%B9%E4%B8%83%E8%89%B2"><span class="toc-number">2.11.</span> <span class="toc-text">霓虹七色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Meta-%E6%98%9F%E4%B9%8B%E6%89%80%E5%9C%A8"><span class="toc-number">2.12.</span> <span class="toc-text">Meta - 星之所在</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E5%8D%97%E5%8C%BA"><span class="toc-number">3.</span> <span class="toc-text">指南区</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E6%83%B3%E8%81%94%E7%BF%A9"><span class="toc-number">3.1.</span> <span class="toc-text">浮想联翩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%97%8F%E2%96%A0%E2%98%85%E2%96%B2"><span class="toc-number">3.2.</span> <span class="toc-text">●■★▲</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E6%98%9FGalaxy"><span class="toc-number">3.3.</span> <span class="toc-text">三星Galaxy</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%A0%E6%83%B3Roll%E5%87%BA%E6%80%8E%E6%A0%B7%E7%9A%84%E6%AF%94%E8%B5%9B"><span class="toc-number">3.4.</span> <span class="toc-text">你想Roll出怎样的比赛</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link-It-All"><span class="toc-number">3.5.</span> <span class="toc-text">Link It All</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%B1%E6%98%AF%E4%B8%BA%E4%BA%86%E8%BF%99%E7%82%B9%E9%86%8B"><span class="toc-number">3.6.</span> <span class="toc-text">就是为了这点醋</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%A8%E8%80%8C%E5%A4%8D%E5%A7%8B"><span class="toc-number">3.7.</span> <span class="toc-text">周而复始</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99"><span class="toc-number">3.8.</span> <span class="toc-text">复习资料</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%91%E7%82%B9%E8%A7%A3%E6%9E%90"><span class="toc-number">3.9.</span> <span class="toc-text">笑点解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%93%E5%8D%A1"><span class="toc-number">3.10.</span> <span class="toc-text">打卡</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AB%98%E6%A5%BC%E5%A4%A7%E5%8E%A6"><span class="toc-number">3.11.</span> <span class="toc-text">高楼大厦</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BD%8D%E5%8F%82%E8%B5%9B%E8%80%85%E2%80%A6%E2%80%A6"><span class="toc-number">3.12.</span> <span class="toc-text">一位参赛者……</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Meta-%E6%8C%87%E5%8D%97"><span class="toc-number">3.13.</span> <span class="toc-text">Meta - 指南</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%B0%E5%88%B7%E5%8C%BA"><span class="toc-number">4.</span> <span class="toc-text">印刷区</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E5%AF%BB"><span class="toc-number">4.1.</span> <span class="toc-text">图寻</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%83%AB%E7%83%AB%E7%83%AB"><span class="toc-number">4.2.</span> <span class="toc-text">烫烫烫</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E8%B0%B7%E4%B8%B0%E7%99%BB"><span class="toc-number">4.3.</span> <span class="toc-text">五谷丰登</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E5%BD%A9%E6%96%91%E6%96%93%E7%9A%84%E6%97%A0%E5%AD%97%E5%A4%A9%E4%B9%A6"><span class="toc-number">4.4.</span> <span class="toc-text">五彩斑斓的无字天书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%AA%E8%AF%B4%E6%98%8E%E4%B9%A6"><span class="toc-number">4.5.</span> <span class="toc-text">只说明书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B0%8F%E6%AF%9B%E7%B1%B3%E9%A1%B5"><span class="toc-number">4.6.</span> <span class="toc-text">氏毛米页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%88%E6%9C%89%E9%B8%A1%E8%BF%98%E6%98%AF%E5%85%88%E6%9C%89%E8%9B%8B"><span class="toc-number">4.7.</span> <span class="toc-text">先有鸡还是先有蛋</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%AA%E5%89%A9%E6%8F%90%E5%8F%96"><span class="toc-number">4.8.</span> <span class="toc-text">只剩提取</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%90%E5%85%B6%E5%AE%83%E9%82%A3%E4%BA%9B%E6%B2%A1%E6%9C%89%E5%86%85%E5%AE%B9%E7%9A%84%E9%A2%98%E3%80%91"><span class="toc-number">4.9.</span> <span class="toc-text">【其它那些没有内容的题】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Meta-%E5%8D%B0%E5%88%B7"><span class="toc-number">4.10.</span> <span class="toc-text">Meta - 印刷</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%81%AB%E8%8D%AF%E5%8C%BA"><span class="toc-number">5.</span> <span class="toc-text">火药区</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E8%89%B2%E6%96%B9%E5%9C%86"><span class="toc-number">5.1.</span> <span class="toc-text">五色方圆</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E5%85%A5%E6%BC%94%E7%AE%97"><span class="toc-number">5.2.</span> <span class="toc-text">代入演算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%A1%E9%BB%84%E5%8F%88%E8%93%AC%E6%9D%BE"><span class="toc-number">5.3.</span> <span class="toc-text">淡黄又蓬松</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%8F%E6%8B%89%E5%9B%BE%E5%BC%8F%E7%9B%B8%E7%88%B1"><span class="toc-number">5.4.</span> <span class="toc-text">柏拉图式相爱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%9F%EF%BC%9F%EF%BC%9F%E5%BC%8F%E7%9B%B8%E7%88%B1"><span class="toc-number">5.5.</span> <span class="toc-text">？？？式相爱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B1%89%E5%AD%97%E6%96%B9%E9%98%B5%C2%B7%E5%90%8E%E5%8D%8A"><span class="toc-number">5.6.</span> <span class="toc-text">汉字方阵·后半</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E6%98%AF%E5%8E%A8%E7%A5%9E"><span class="toc-number">5.7.</span> <span class="toc-text">原来你也是厨神</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E6%8E%A2%E6%A1%88%E9%9B%86"><span class="toc-number">5.8.</span> <span class="toc-text">福尔摩斯探案集</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%83%E5%85%83%E5%85%83%E2%80%A6%E2%80%A6%E5%85%83%E8%B0%9C%E9%A2%98"><span class="toc-number">5.9.</span> <span class="toc-text">元元元……元谜题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Galileo%E2%80%99s-Escapement-Room"><span class="toc-number">5.10.</span> <span class="toc-text">Galileo’s Escapement Room</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Meta-%E7%81%AB%E8%8D%AF"><span class="toc-number">5.11.</span> <span class="toc-text">Meta - 火药</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%A0%E7%BA%B8%E5%8C%BA"><span class="toc-number">6.</span> <span class="toc-text">造纸区</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%B6%E5%AD%90%E6%88%8F"><span class="toc-number">6.1.</span> <span class="toc-text">叶子戏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%AD%97%E8%B0%9C"><span class="toc-number">6.2.</span> <span class="toc-text">三字谜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2025%E5%B9%B4%E5%BA%A6%E8%A7%A3%E8%B0%9C%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95"><span class="toc-number">6.3.</span> <span class="toc-text">2025年度解谜能力测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%A0%E8%AF%B4%E8%AF%9D%E5%B8%A6%E6%8B%AC%E5%8F%B7"><span class="toc-number">6.4.</span> <span class="toc-text">你说话带括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%83%E5%AD%97%E8%B0%9C"><span class="toc-number">6.5.</span> <span class="toc-text">千字谜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Meta-%E9%80%A0%E7%BA%B8"><span class="toc-number">6.6.</span> <span class="toc-text">Meta - 造纸</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%88%E7%AB%A0"><span class="toc-number">7.</span> <span class="toc-text">终章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E5%8D%97%E6%A0%91"><span class="toc-number">7.1.</span> <span class="toc-text">指南树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%B0%E5%88%B7%E6%A0%91"><span class="toc-number">7.2.</span> <span class="toc-text">印刷树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%81%AB%E8%8D%AF%E6%A0%91"><span class="toc-number">7.3.</span> <span class="toc-text">火药树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%A0%E7%BA%B8%E6%A0%91"><span class="toc-number">7.4.</span> <span class="toc-text">造纸树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Final-Meta-%E6%9C%80%E5%90%8E%E7%9A%84%E8%B0%9C%E9%A2%98"><span class="toc-number">7.5.</span> <span class="toc-text">Final Meta - 最后的谜题</span></a></li></ol></li></ol></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer"><div class="footer-line">Copyright © 2024 - 2026 <a href="/." rel="nofollow">voilern's blog.</a></div><div class="footer-line">Powered by <a rel="nofollow" target="_blank" href="https://hexo.io">Hexo</a> with theme <a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo">Maupassant</a> modified by <a rel="nofollow" target="_blank" href="https://github.com/voilern">voilern</a></div></div></div></div><a id="rocket" href="#top" aria-label="totop"><i class="fa fa-angle-up" aria-hidden="true"></i></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=1.0.0"><script type="text/javascript" src="/js/search.js?v=1.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+  search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="Copy Successed!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML" async></script><!-- 使用 MathJax TeX 字体，避免被全局中文字体覆盖--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] },
+  CommonHTML: {
+    font: "TeX",
+    matchFontHeight: false,
+    mtextInheritFont: false
+  },
+  "HTML-CSS": {
+    availableFonts: ["TeX"],
+    webFont: "TeX",
+    matchFontHeight: false
+  },
+  SVG: { font: "TeX" }
+});</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" async></script><!-- Pangu: 自动处理中西文间距，跳过归档列表--><script type="text/javascript" src="https://unpkg.com/pangu@7.2.0/dist/browser/pangu.umd.js"></script><script>(function() {
+  var applyPangu = function() {
+    if (!window.pangu || typeof pangu.spacingText !== 'function') return;
+    var nodes = document.querySelectorAll('.post-content');
+    nodes.forEach(function(el) {
+      if (el.closest('.post-archive')) return; // 归档页列表不处理
+      var walker = document.createTreeWalker(
+        el,
+        NodeFilter.SHOW_TEXT,
+        {
+          acceptNode: function(node) {
+            var parent = node.parentElement;
+            if (!parent) return NodeFilter.FILTER_REJECT;
+            // 跳过 KaTeX/MathJax/代码区域，避免破坏公式和代码格式
+            if (parent.closest('.katex, .MathJax, pre, code')) return NodeFilter.FILTER_REJECT;
+            return NodeFilter.FILTER_ACCEPT;
+          }
+        }
+      );
+      var texts = [];
+      while (walker.nextNode()) texts.push(walker.currentNode);
+      texts.forEach(function(node) {
+        node.data = pangu.spacingText(node.data);
+      });
+    });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyPangu);
+  } else {
+    applyPangu();
+  }
+})();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script><script type="text/javascript" src="/js/toc-highlight.js?v=1.0.0"></script></div></body></html>
