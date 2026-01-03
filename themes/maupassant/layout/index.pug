@@ -42,8 +42,10 @@ block content
         .post-content
           != post.description
       else if post.excerpt
+        - var excerptText = strip_html(post.excerpt).trim()
+        - if (excerptText.length > theme.post_content_length) excerptText = excerptText.substring(0, theme.post_content_length) + '...'
         .post-content
-          != post.excerpt
+          = excerptText
       else if post.content
         - const content = strip_html(post.content)
         - let expert = content.substring(0,theme.post_content_length)

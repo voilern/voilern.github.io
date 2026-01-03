@@ -5,7 +5,7 @@ layout: page
 comments: false
 ---
 
-这里是 voilern 作为 Puzzle Hunter 的个人博客，主要更新 Hunt 的 Write-up。
+这里是 voilern 的个人博客。
 
 <details>
 <summary>暂时咕咕的 write-up list</summary>

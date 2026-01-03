@@ -144,6 +144,7 @@ info:
   name: voilern
   avatar: /img/avatar.jpg
   discription: ''
+  location: 'Hangzhou, China' # e.g. 'Shanghai, China'
   outlinkitem:
     - name: github
       outlink: https://github.com/voilern
